@@ -1,0 +1,190 @@
+main {
+    background-image: none;
+    background-color: #444;
+    color: #111;
+}
+.arrow 
+{
+    position: absolute;
+    right: 10px;
+    bottom: 45%;
+    display: flex!important;
+}
+.layout-state-logo
+{
+	color: #6c7073;
+}
+.layout-state-logo > svg {
+    width: 28px;
+    height: 28px;
+    fill: #6c7073;
+}
+.logined-menu > ul > a svg, .logined-menu > ul > li svg, .list-element svg {
+    fill: #969591;
+    width: 17px;
+    height: 17px;
+}
+.logined-menu > ul > a.active svg, .logined-menu > ul > li.active svg, .logined-menu > ul > a:hover svg, .logined-menu > ul > li:hover svg, .list-element:hover svg, .list-element.active svg {
+    fill: #0c0c0c;
+}
+.user-ava svg
+{
+	width:25px;
+	height:25px;
+	fill:#111;
+}
+.profile-ava svg
+{
+	fill:#111;
+	
+}
+.layout-header-icon > svg 
+{
+	fill:#000;
+}
+.cont {
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+}
+.block {
+    padding: 0;
+    background-color: #cccccc;
+    margin: 0!important;
+}
+
+.layout-header-title {
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: #101010;
+    margin-left: 10px;
+}
+.icon-unlogined, .icon-logined {
+    display: flex;
+    align-items: center;
+    color: #100f0b;
+    padding-right: 20px;
+    position: relative;
+    height: 100%;
+}
+.icon-logined.active {
+	background-color: #9a9999;
+}
+.logined-menu {
+    height: 0;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    z-index: 10;
+    top: 74px;
+    -webkit-transition: height 250ms ease-out;
+    -moz-transition: height 250ms ease-out;
+    -ms-transition: height 250ms ease-out;
+    -o-transition: height 250ms ease-out;
+    transition: height 250ms ease-out;
+}
+.logined-menu > ul > a, .logined-menu > ul > li, .list-element
+{
+	color: #211b1b;
+}
+.logined-menu > ul > a:hover,  .logined-menu > ul > li:hover, .list-element:hover,
+.logined-menu > ul > a:active, .logined-menu > ul > li:active, .list-element:active,
+.logined-menu > ul > a.active, .logined-menu > ul > li.active, .list-element.active
+{
+	color:#111;
+    background-color: #cccccc;
+}
+.chevron-down-light {
+    background-image: url(../img/chevron-down_dark.svg);
+    width: 12px;
+    height: 12px;
+    background-size: cover;
+}
+
+.layout-menu-left {
+    background-color: #1f1f1f;
+	padding: 0;
+}
+.active > .layout-menu-icon {
+    background-color: #6b7073;
+    color: #dbdee0;
+    -webkit-box-shadow: inset 7px 4px 6px 0 #1414144f;
+    box-shadow: inset 7px 4px 6px 0 #1414144f;
+}
+
+.layout-state-title {
+    font-family: inherit;
+    font-weight: 100;
+    font-size: 1.6rem;
+    color: #040404;
+    letter-spacing: 1px;
+}
+
+.layout-message .title {
+    font-family: unset;
+    font-size: 1.7rem;
+    color: #929191;
+}
+.layout-message .btn-primary 
+{
+	background-color:#777!important;
+	border-color:#777!important;
+}
+.layout-message .btn-primary::hover 
+{
+	background-color:#555!important;
+	border-color:#555!important;
+}
+.layout-message .btn-primary::active 
+{
+	background-color:#111!important;
+	border-color:#111!important;
+}
+.layout-menu-icon {
+    --margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #FFFFFFAA;
+}
+.input, .input.dark {
+    border: 0!important;
+    border-bottom: 1px solid #02020240!important;
+    color: #000000fa;
+}
+.input::active, .input::focus, .input.dark::active, .input.dark::focus
+{
+	border: 00000010!important;
+    color: #000000!important;
+}
+.input input, .input .bp3-tag {
+    color: #000!important;
+}
+
+.data-list > .col {
+    padding: 15px;
+    color: #3c0606;
+}
+.input input, .input .bp3-tag {
+   
+}
+.layout-menu-left-label {
+    bottom: 3px;
+    width: 100%;
+    font-size: 11px;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+}
+.list-element-child {
+    color: #94a575!important;
+}
+.list-element-child.active {
+    color: #7c8c58!important;
+}

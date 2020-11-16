@@ -1,0 +1,1747 @@
+{
+	"landing": {
+		"src" : {"type" : "string", "hidden":1, "title":"Remote source server url" },
+		"is_blocked" : {"type": "boolean", "hidden":0, "title":"Block-width formatting"},
+		"left_color" : {
+			"type": "color", 
+			"hidden":0, 
+			"title":"Left field color",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"left_color_opacity" : { 
+			"type" : "slider", 
+			"min" : 0, 
+			"max" : 1,
+			"step_size" : 0.1,
+			"hidden": 0, 
+			"title": "Left field color opacity",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"left_image" : {
+			"type": "media", 
+			"hidden":0, 
+			"title":"Left field pattern",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"right_color" : {
+			"type": "color", 
+			"hidden":0, 
+			"title":"Right field color",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"right_color_opacity" : { 
+			"type" : "slider", 
+			"min" : 0, 
+			"max" : 1,
+			"step_size" : 0.1,
+			"hidden": 0, 
+			"title": "Right field color opacity",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"right_image" : {
+			"type": "media", 
+			"hidden":0, 
+			"title":"Right field pattern",
+			"demand": {
+				"field": "is_blocked",
+				"value": [ true, 1 ]
+			}
+		},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"text_before": {"type": "text", "hidden":1, "title":"HTML before"},
+		"text_after" : {"type": "text", "hidden":1, "title":"HTML after"}
+	},
+	"section": {
+		"id" : { "type" : "string", "hidden":0, "title":"ID" },
+		"is_hidden" : { "type" : "boolean", "hidden":0, "title":"Is hidden" },
+		"type" : { "type" : "string", "hidden":0, "title":"Content type" },
+		"data" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "ContentData", 
+			"hidden":0, 
+			"title":"Content data" 
+		},
+		"title" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "title", 
+			"hidden":0, 
+			"title":"Title" 
+		},
+		"descriptions" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "descriptions", 
+			"hidden":0, 
+			"title":"Descriptions" 
+		},
+		"composition" : {
+			"type": "landing_object",
+			"visualization": "landing-object", 
+			"landing_object" : "Composition", 
+			"hidden":0, 
+			"title":"Composition" 
+		},
+		"background" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Background",
+			"hidden":0, 
+			"title":"Smart background" 
+		},
+		"type" : {
+			"type": "landing_object",
+			"visualization": "landing-object",  
+			"landing_object" : "Type", 
+			"hidden":0, 
+			"title":"Type of content" 
+		},
+		"class_name" : {
+			"type" : "string", 
+			"hidden":0, 
+			"title":"SCC-class", 
+			"_tab" : "Style",
+			"_tab_icon" : "fas fa-palette"  
+		},
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"_tab" : "Style",
+			"_tab_icon" : "fas fa-palette" 
+		},
+		"menu" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Menu", 
+			"hidden":0, 
+			"title":"Menu" 
+		},
+		"lasy_load_type" : {
+			"title": "Lazy load animation type", 
+			"type": "string", 
+			"hidden":0 
+		},
+		"lasy_load_delay": {
+			"ttle": "Lazy load delay", 
+			"type": "number", 
+			"hidden":0 
+		},
+		"visible_value": { "hidden":1, "value": "title.text"},
+		"default" : 
+		{ 
+			"hidden" : 1,
+			"value": 
+			{
+				"id" : "-1",
+				"is_hidden" : false,
+				"type" : "html",
+				"data" : 
+				{
+					"text" : "", 
+					"style" : 
+					{
+						"Padding": 
+						{
+						
+						},
+						"Margin": 
+						{
+						
+						}
+					}, 
+					"class_name":"" 
+				},
+				"title" : 
+				{ 
+					"text" : "edit title", 
+					"style":
+					{
+						"Padding": 
+						{
+						
+						},
+						"Margin": 
+						{
+						
+						}
+					}, 
+					"class_name":"" 
+				},
+				"descriptions" : 
+				{ 
+					"text" : "edit description", 
+					"style":
+					{
+						"Padding": 
+						{
+						
+						},
+						"Margin": 
+						{
+						
+						}
+					}, 
+					"class_name":"" 
+				},
+				"composition" : 
+				{ 
+					"columns": 1,
+					"type": 1,
+					"proportia": [ 50, 50 ]
+				},
+				"background": 
+				{
+				
+				},
+				"style": 
+				{
+					"Padding": 
+					{
+					
+					},
+					"Margin": 
+					{
+					
+					}
+				},
+				"menu": 
+				{
+				
+				},
+				"data": 
+				{
+					"text" : "",
+					"style": 
+					{
+					
+					}
+				},
+				"floats": [
+				
+				],
+				"type": "html"
+			}
+		}
+	},
+	"floats" : {
+		"floats" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "section", 
+			"hidden":0, 
+			"title":"Float elements" 
+		},
+		"position" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Position", 
+			"hidden": 1, 
+			"title":"SCC-style" 
+		},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "title"}
+	},
+	"title": {
+		"text" : {"type": "string", "hidden":0, "title":"Text" },
+		"text_src": {"type": "string", "hidden":1},
+		
+		"lasy_load_type" : {
+			"type": "string", 
+			"hidden":0, 
+			"tab" : "Lasy",
+			"tab_icon" : "fas fa-video", 
+			"title":"Lazy load animation type"
+		},
+		"lasy_load_delay": {
+			"type": "number", 
+			"hidden":0, 
+			"tab" : "Lasy",
+			"tab_icon" : "fas fa-video", 
+			"title":"Lazy load delay"
+		},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		}, 
+		"visible_value": { "hidden":1, "value": "text"}
+	},	
+	"descriptions": {
+		"text" : {"type": "string", "hidden":0, "title":"Text"},
+		
+		"lasy_load_type" : {
+			"type": "string", 
+			"hidden":0, 
+			"tab" : "Lasy",
+			"tab_icon" : "fas fa-video", 
+			"title":"Lazy load animation type"
+		},
+		"lasy_load_delay": {
+			"type": "number", 
+			"hidden":0, 
+			"tab" : "Lasy",
+			"tab_icon" : "fas fa-video", 
+			"title":"Lazy load delay"
+		},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "text"}
+	},	
+	
+	"archor_menu": {
+		"is_fixed" : {"type": "boolean", "hidden":0, "title":"Fix menu when top of screen"}, 
+		"is_add_header" : {"type": "boolean", "hidden":0, "title":"Add header (icon and Title) to left of menu"}, 
+		"icon" : {"type": "media", "hidden":0, "title":"Icon"}, 
+		"title" : {"type": "string", "hidden":0, "title":"Title"}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		} 
+	},	
+	"html": {
+		"text" : {"type": "html", "hidden":0, "title":"html"},
+		"height": {"type": "number", "hidden":0, "title":"Height"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "text"}
+	},
+	"quote": {
+		"text" : {"type": "text", "hidden":0, "title":"Text of quote"},
+		"name" : {"type": "string", "hidden":0, "title":"Author name"},
+		"description" : {"type": "string", "hidden":0, "title":"Author description"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "name"}
+	},
+	"motivation": { 
+		"motivation" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "MotivatonElement", 
+			"hidden":0, 
+			"title":"Motivations" 
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": ""}
+	},
+	"team": { 
+		"team" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "TeamMember", 
+			"hidden":0, 
+			"title":"Team member" 
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": ""}
+	},
+	"video": { 
+		"title" : {"type" :"string", "hidden":0, "title": "title"},
+		"type" : {
+			"type" : "radio", 
+			"hidden":0, 
+			"values": [
+				{
+					"_id" : "vimeo",
+					"title": "Vimeo"		
+				},
+				{
+					"_id" : "youtube",
+					"title": "Youtube"		
+				}
+			],
+			"title": "Type"
+		},
+		"id" : {"type" :"string", "hidden":0, "title": "video ID"},
+		"modestbranding" : {"type" :"boolean", "hidden":0, "title": "Show hosting brand"},
+		"autoplay" : {"type" :"boolean", "hidden":0, "title": "Autoplay"},
+		"controls" : {"type" :"boolean", "hidden":0, "title": "Show controls"},
+		"mute" : {"type" :"boolean", "hidden":0, "title": "Mute sound"},
+		"width" : {"type" :"string", "hidden":0, "title": "Width"},
+		"height" : {"type" :"string", "hidden":0, "title": "Height"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "title"}
+	},
+	"video_play_list": {
+		"title" : {"type" :"string", "hidden":0, "title": "title"}, 	
+		"video" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "video", 
+			"hidden":0, 
+			"title":"Video playlist elements" 
+		}, 
+		
+		"height" : {"type" :"string", "hidden":0, "title": "Height"},
+		"width" : {"type" :"string", "hidden":0, "title": "Width"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": ""}
+	},
+	"carousel": { 
+		"sections" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "section", 
+			"hidden":0, 
+			"title":"Carousel Slider" 
+		}, 
+		"loop" : {"type": "boolean", "hidden":0, "title":"Loop" },
+		"autoplay" : {"type": "boolean", "hidden":0, "title":"Autoplay" },
+		"dots" : {"type": "boolean", "hidden":0, "title":"Dots interface" },
+		"dots_type" : {
+			"type": "radio", 
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "squareddots",
+					"title": "Squared"		
+				},
+				{
+					"_id" : "roundeddots",
+					"title": "Rounded"		
+				},
+				{
+					"_id" : "transparentdots",
+					"title": "Transparent"		
+				}
+			],
+			"default": "squared",
+			"title":"Arrows type",
+			"demand": {
+				"field": "dots",
+				"value": [ true, 1 ]
+			} 
+		},
+		"dots_color" : {
+			"type": "radio", 
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "owllightdots",
+					"title": "Light"		
+				},
+				{
+					"_id" : "owldarkdots",
+					"title": "Dark"		
+				}
+			],
+			"default": "owldark",
+			"title":"Arrows color" ,
+			"demand": {
+				"field": "dots",
+				"value": [ true, 1 ]
+			} 
+		},
+		
+		"nav" : {"type": "boolean", "hidden":0, "title":"Arrow navigation" },
+		"nav_type" : {
+			"type": "radio", 
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "squared",
+					"title": "Squared"		
+				},
+				{
+					"_id" : "rounded",
+					"title": "Rounded"		
+				},
+				{
+					"_id" : "half_rounded",
+					"title": "Half rounded"		
+				},
+				{
+					"_id" : "transparent",
+					"title": "Transparent"		
+				}
+			],
+			"default": "squared",
+			"title":"Arrows type",
+			"demand": {
+				"field": "nav",
+				"value": [ true, 1 ]
+			} 
+		},
+		"nav_color" : {
+			"type": "radio", 
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "owllight",
+					"title": "Light"		
+				},
+				{
+					"_id" : "owldark",
+					"title": "Dark"		
+				}
+			],
+			"default": "owldark",
+			"title":"Arrows color",
+			"demand": {
+				"field": "nav",
+				"value": [ true, 1 ]
+			} 
+		},
+		"nav_design" : {
+			"type": "radio", 
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "caret",
+					"title": "Caret"		
+				},
+				{
+					"_id" : "angle",
+					"title": "Angle"		
+				},
+				{
+					"_id" : "double-angle",
+					"title": "Double angle"		
+				},
+				{
+					"_id" : "arrowsed",
+					"title": "Arrow"		
+				},
+				{
+					"_id" : "hand",
+					"title": "Hand"		
+				}
+			],
+			"default": "squared",
+			"title":"Arrows design",
+			"demand": {
+				"field": "nav",
+				"value": [ true, 1 ]
+			} 
+		},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {
+			"type" : "string", 
+			"hidden" : 0, 
+			"title" : "SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title": "SCC-style",
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "items"}
+	},
+	"columns": { 
+		"sections" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "section", 
+			"hidden":0, 
+			"title":"Section" 
+		}, 
+		"proportia" : {
+			"type": "landing_object", 
+			"kind": "array",				
+			"visualization": "landing-object", 
+			"landing_object" : "ColumnsProportia", 
+			"hidden":0, 
+			"title":"Proportia" 
+		},
+		"column_gap" : {"type" : "number", "hidden":0, "title":"Column gap" },
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "items"}
+	},
+	"rows": { 
+		"sections" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "section", 
+			"hidden":0, 
+			"title":"Section" 
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "items"}
+	},
+	"cards": { 
+		"cards" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "Card", 
+			"sourse_field" : "fields",
+			"hidden":0, 
+			"title":"Cards" 
+		}, 
+		"height": {
+			"type": "number",
+			"hidden":0, 
+			"title":"Full height of all Cards"
+		}, 
+		"padding": {
+			"type": "number",
+			"hidden":0, 
+			"title":"Gap between Card"
+		},
+		"fields" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "CardField", 
+			"hidden":0, 
+			"title":"Card Fields",
+			"tab":"Card's Design" ,
+			"tab_icon" : "fas fa-magic"  
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "class_name"},
+		"default" : {
+			"hidden":1, 
+			"cards" : [
+				{
+					"title" : "Card 1",
+					"fields": [						
+						{
+							"field" : "/assets/img/employee.svg",
+							"variant" : 0
+						},
+						{
+							"field" : "Card 1",
+							"variant" : 1
+						},
+						{
+							"field" : "description of card",
+							"variant" : 0
+						},
+						{
+							"field" : "description 2",
+							"variant" : 0
+						},
+						{
+							"field" : "description 3",
+							"variant" : 0
+						}
+					]
+				}, 
+				{
+					"title" : "Card 2",
+					"fields": [						
+						{
+							"field" : "/assets/img/employee.svg",
+							"variant" : 0
+						},
+						{
+							"field" : "Card 2",
+							"variant" : 1
+						},
+						{
+							"field" : "description of card",
+							"variant" : 0
+						},
+						{
+							"field" : "description 2",
+							"variant" : 0
+						},
+						{
+							"field" : "description 3",
+							"variant" : 0
+						}
+					]
+				}
+			],
+			"fields" : [
+				{
+					"type": "media",
+					"variant": 1
+				},
+				{
+					"type": "string",
+					"variant": 1
+				},
+				{
+					"type": "string",
+					"variant": 0
+				},
+				{
+					"type": "string",
+					"variant": 0
+				},
+				{
+					"type": "string",
+					"variant": 0
+				}
+			]
+		}
+	},
+	"Card": {
+		"title" : {"type": "string", "hidden":0, "title":"Title"},	
+		"fields": {			
+			"type": "landing_object",
+			"kind": "array",		 
+			"visualization": "landing-object", 
+			"landing_object" : "CardSingleField", 
+			"hidden":0, 
+			"title":"Fields" 
+		},
+		"link_type" : {
+			"title" : "Link on click to Card type",
+			"type" : "radio",
+			"values" : [
+				{
+					"_id": "0",
+					"title":"Nothing"
+				},
+				{
+					"_id": "1",
+					"title":"Inner Link"
+				},
+				{
+					"_id": "2",
+					"title":"Over site"
+				},
+				{
+					"_id": "3",
+					"title":"Dialog content"
+				}
+			]
+		},
+		"inner_link_route":{
+			"title":"Inner link route",
+			"type": "URL", 
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "1" ]
+			}			
+		},
+		"over_link_route":{
+			"title":"Over site URL",
+			"type": "URL", 
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "2" ]
+			}			
+		},
+		"dialog_title":{
+			"title":"Dialog title",
+			"type": "string", 
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "3" ]
+			}			
+		},
+		"dialog_content_type":{
+			"title":"Dialog content type",
+			"type": "radio", 
+			"values": [
+				{
+					"_id" : "text_content",
+					"title" : "Plain text"
+				},
+				{
+					"_id" : "inner_link",
+					"title" : "Content of inner site page"
+				}
+			],
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "3" ]
+			}			
+		},
+		"dialog_route_content":{
+			"title":"Dialog insite-route content",
+			"type": "url", 
+			"hidden":0,
+			"demand": {
+				"field": "dialog_content_type",
+				"value": [ "inner_link" ]
+			}			
+		},
+		"dialog_content":{
+			"title":"Dialog content",
+			"type": "text", 
+			"hidden":0,
+			"demand": {
+				"field": "dialog_content_type",
+				"value": [ "text_content" ]
+			}			
+		},
+		"dialog_inner_route":{
+			"title":"Dialog's footer link route",
+			"type": "url", 
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "3" ]
+			}			
+		},
+		"dialog_btn_label":{
+			"title":"Dialog's footer link label",
+			"type": "string", 
+			"hidden":0,
+			"demand": {
+				"field": "link_type",
+				"value": [ "3" ]
+			}			
+		},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "title"},
+		"default" : {
+			"hidden":1, 
+			"title" : "new Card",
+			"fields" : [
+				{
+					"field" : "/assets/img/employee.svg",
+					"variant" : 0
+				},
+				{
+					"field" : "new Card",
+					"variant" : 1
+				},
+				{
+					"field" : "description of new card",
+					"variant" : 0
+				},
+				{
+					"field" : "description 2",
+					"variant" : 0
+				},
+				{
+					"field" : "description 3",
+					"variant" : 0
+				}
+			]
+		}
+	},
+	"CardSingleField": {
+		"field" : {"type": "string", "hidden": 0, "title": "Field value"},
+		"variant" : {"type": "number", "hidden": 0, "title": "Design variant"},		
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "field"}
+	},
+	"CardField" : {
+		"type": {
+			"type": "radio",
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : "string",
+					"title": "String"		
+				},
+				{
+					"_id" : "media",
+					"title": "Image"		
+				},
+				{
+					"_id" : "navlink",
+					"title": "Inner site link button"		
+				},
+				{
+					"_id" : "price",
+					"title": "Price"		
+				}
+			],
+			"default": "string",
+			"title":"Type"
+		},	
+		"variant": {
+			"type": "radio",
+			"hidden":0,  
+			"values": [
+				{
+					"_id" : 0,
+					"title": "design 1"		
+				},
+				{
+					"_id" : 1,
+					"title": "design 2"		
+				},
+				{
+					"_id" : 2,
+					"title": "design 3"		
+				},
+				{
+					"_id" : 3,
+					"title": "design 4"		
+				}
+			],
+			"default": "1",
+			"title":"Variant"
+		},		
+		"height": {
+			"type": "number",
+			"hidden":0, 			
+			"default": "",
+			"title":"Height of this element in all Cards"
+		},		
+		"lasy_load_type" : { 
+			"type": "string", 			
+			"title": "Lazy load animation type", 
+			"hidden":0, 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"
+		},
+		"lasy_load_delay": {
+			"type": "number", 
+			"ttle": "Lazy load delay", 
+			"hidden":0, 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"
+		},
+		"class_name" : {
+			"type" : "string", 
+			"hidden":0, 
+			"title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "type"},
+		"default" : {
+			"hidden":1, 
+			"type": "string",
+			"variant": 1
+		}
+	},
+	"testanomials": { 
+		"testanomials" : {
+			"type": "landing_object",
+			"kind": "array",			
+			"visualization": "landing-object", 
+			"landing_object" : "TestanomialMember", 
+			"hidden":0, 
+			"title":"Testanomial member" 
+		}, 
+		"items" : {"type": "number", "hidden":0, "title":"Count of slides in screen" },
+		"loop" : {"type": "boolean", "hidden":0, "title":"Loop" },
+		"autoplay" : {"type": "boolean", "hidden":0, "title":"Autoplay" },
+		"dots" : {"type": "boolean", "hidden":0, "title":"Dots interface" },
+		"nav" : {"type": "boolean", "hidden":0, "title":"Arrow navigation" },
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "class_name"}
+	},
+	"social_likes": { 
+		"socials" : {
+			"type" : "checkbox", 
+			"hidden":0, 
+			"title":"Social",
+			"values": [
+				{
+					"_id" : "odnoklassniki",
+					"title": "Odnoklassniki"		
+				},
+				{
+					"_id" : "facebook",
+					"title": "Facebook"		
+				},
+				{
+					"_id" : "vkontakte",
+					"title": "VKontakte"		
+				},
+				{
+					"_id" : "twitter",
+					"title": "Twitter"		
+				},
+				{
+					"_id" : "mailru",
+					"title": "Mail.ru"		
+				},
+				{
+					"_id" : "youtube",
+					"title": "YouTube"		
+				}
+			]
+		}, 
+		"type" : {
+			"type" : "radio", 
+			"hidden":0, 
+			"title":"Type",
+			"values": [
+				{
+					"_id" : "big_square",
+					"title": "Big square"		
+				},
+				{
+					"_id" : "little_rounded",
+					"title": "Little rounded"		
+				}
+			]
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "class_name"},
+		"default": {
+			"hidden":1,
+			"socials" : [ "odnoklassniki" ],
+			"type" : "bigsquare"			
+		}
+	},
+	"inner_link": { 
+		"route" : {"type": "string", "hidden":0, "title":"Inner link (without root site URL)" },
+		"label" : {"type": "string", "hidden":0, "title":"Label in button" },
+		"is_fill": {"type":"boolean", "hidden":0, "title": "Fill button by width" },
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "route"}
+	},
+	"yandex_map": { 
+		"height" : {"type" : "number", "hidden":0, "title":"Height" }, 
+		"position" : {"type" : "geo", "hidden":0, "title":"Position" }, 
+		"yandex_map_api_key" : {"type" : "string", "hidden":0, "title":"Yandex-Map API key" }, 
+		"places" : {
+			"type": "landing_object", 
+			"kind": "array",		
+			"visualization": "landing-object", 
+			"landing_object" : "YandexMapPlace", 
+			"hidden":0, 
+			"title":"Places" 
+		}, 
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "height"},
+		"default": {
+			"hidden":1,
+			"height" : 400,
+			"position" : [55.74451000202571, 37.61184753417968, 12],
+			"places": [
+				{
+					"types" : [
+						{
+							"_id": "1", 
+							"title": "place", 
+							"type":"oval",
+							"color": "#000044", 
+							"icon": "", 
+							"width": 60, 
+							"height": 60, 
+							"offset_x": 30, 
+							"offset_y": 60 
+						}
+					],
+					"title": "Москва",
+					"geo": [ 55.72, 37.6166 ]
+				}			
+			]
+		}
+	},
+	"image": {
+		"src" : {"type": "media", "hidden":0, "title":"Source URL"},
+		"src_type" : {
+			"type": "radio", 
+			"hidden":0, 
+			"title":"Draw method",
+			"values": [
+				{
+					"_id" : "div",
+					"title": "as background"		
+				},
+				{
+					"_id" : "img",
+					"title": "as img tag"		
+				}
+			]
+		},
+		"height": {"type": "number", "hidden":0, "title":"Height"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "src"}
+	},
+	"contact_form": {
+		"forms": {
+			"type": "landing_object", 
+			"kind": "array",		
+			"visualization": "landing-object", 
+			"landing_object" : "ContanctFormField", 
+			"hidden":0, 
+			"title":"Forms" 
+		},
+		"label": {"type": "strinh", "hidden":0, "title":"Label on send button"},
+		"toast_text": {"type": "strinh", "hidden":0, "title":"Reply text after sending message"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "src"},
+		"default": {
+			"hidden": 1,
+			"label" : "Send", 
+			"forms" : [
+				{
+					"type": "string",
+					"value":"",
+					"label": "Put your name, please",
+					"is_required": 1,
+					"description":""
+				},
+				{
+					"type": "string",
+					"value":"",
+					"label": "Put your contact, please",
+					"is_required": 1,
+					"description":"put your e-mail or phone number"
+				}
+			],
+			"toast_text": "Thank you for your message."
+		}
+	},
+	"post_carousel": {
+		"count" : {"type": "number", "hidden":0, "title":"Count of sliders"},
+		"offset" : {"type": "number", "hidden":0, "title":"Start of feed"},
+		"data_type" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "SchemaType", 
+			"hidden":0, 
+			"title":"Registered Data-type" 
+		},
+		"height": {"type": "number", "hidden":0, "title":"Height"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  
+		},
+		"visible_value": { "hidden":1, "value": "src"}
+	},
+	"post_feed": {
+		"count" : {"type": "number", "hidden":0, "title":"Count of posts"},
+		"offset" : {"type": "number", "hidden":0, "title":"Start of feed"},
+		"data_type" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "SchemaType", 
+			"hidden":0, 
+			"title":"Registered Data-type" 
+		},
+		"is_row" : {			
+			"type": "radio", 
+			"hidden":0, 
+			"title":"Straight by row?",
+			"values": [
+				{
+					"_id" : "column",
+					"title": "as columns"		
+				},
+				{
+					"_id" : "row",
+					"title": "as row"		
+				}
+			]
+		},
+		"is_show_paginamtion": { "type": "boolean", "hidden":0, "title":"Is show pagination?" },
+		"height": {"type": "number", "hidden":0, "title":"Height"},
+		"lasy_load_type" : {"type": "string", "hidden":1},
+		"lasy_load_delay": {"type": "number", "hidden":1},
+		"class_name" : {"type" : "string", "hidden":0, "title":"SCC-class", 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette"  },
+		"style" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Style", 
+			"hidden":0, 
+			"title":"SCC-style" , 
+			"tab" : "Style",
+			"tab_icon" : "fas fa-palette" 
+		},
+		"visible_value": { "hidden":1, "value": "src"}
+	},
+	
+	"Style": {
+		"Padding" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Padding", 
+			"hidden":0, 
+			"title":"Inner indent" 
+		},
+		"Margin" : {
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Margin", 
+			"hidden":0, 
+			"title":"Outer indent" 
+		},
+		"backgroundColor": {"type": "color", "hidden":0, "title":"Background Color"},
+		"color": {"type": "color", "hidden":0, "title":"Font Color"},
+		"visible_value": { "hidden":1, "value": "title"}
+	},	
+	"Background": {
+		"image": {"type": "media", "hidden":0, "title":"Image"},
+		"color": {"type": "color", "hidden":0, "title":"Color"},
+		"opacity": {"type" : "slider", "min" : 0, "max" : 1, "step_size" : 0.1, "hidden":0, "title":"Color Opacity"},
+		"is_parallax": {"type": "boolean", "hidden":0, "title":"Exist parallax effect"},
+		"parallax_speed": {"type": "number", "hidden":0, "title":"Parallax speed"}
+	},		
+	"Padding": {
+		"Top": {"type": "number", "hidden":0, "title":"Padding Top"},
+		"Right": {"type": "number", "hidden":0, "title":"Padding Right"},
+		"Bottom": {"type": "number", "hidden":0, "title":"Padding Bottom"},
+		"Left": {"type": "number", "hidden":0, "title":"Padding Left"},
+		"visible_value": { "hidden":1, "value": "title"}
+	},		
+	"Margin": {
+		"Top": {"type": "number", "hidden":0, "title":"Margin Top"},
+		"Right": {"type": "number", "hidden":0, "title":"Margin Right"},
+		"Bottom": {"type": "number", "hidden":0, "title":"Margin Bottom"},
+		"Left": {"type": "number", "hidden":0, "title":"Margin Left"},
+		"visible_value": { "hidden":1, "value": "title"}
+	},		
+	"TeamMember": {
+		"avatar": {"type": "media", "hidden":0, "title":"Avatar"}, 
+		"name": {"type": "string", "hidden":0, "title":"Name"}, 
+		"description": {"type": "string", "hidden":0, "title":"Description"} ,
+		"visible_value": { "hidden":1, "value": "name"},
+		"default": {
+			"hidden":1, 
+			"avatar": "/assets/img/employee.svg",
+			"name": "Name",
+			"description": "Description of user"
+		}
+	},			
+	"TestanomialMember": {
+		"avatar": {"type": "media", "hidden":0, "title":"Avatar"}, 
+		"text": {"type": "text", "hidden":0, "title":"Text"}, 
+		"name": {"type": "string", "hidden":0, "title":"Name"}, 
+		"description": {"type": "string", "hidden":0, "title":"Description"},
+		"visible_value": { "hidden":1, "value": "name"},
+		"default": {
+			"hidden":1, 
+			"avatar": "/assets/img/employee.svg",
+			"text": "Text of testinomial...",
+			"name": "Name",
+			"description": "Description of user"
+		}
+	}, 			
+	"ContanctFormVariant": {
+		"label": {"type": "string", "hidden":0, "title":"Label"}, 
+		"value": {"type": "string", "hidden":0, "title":"Value"},  
+		"visible_value": { "hidden":1, "value": "title"}
+	},
+	"ContanctFormField": {
+		"type": {"type": "string", "hidden":0, "title":"Type"}, 
+		"label": {"type": "string", "hidden":0, "title":"Label"}, 
+		"description": {"type": "string", "hidden":0, "title":"Description"}, 
+		"data" : {
+			"kind": "array",
+			"type": "landing_object", 
+			"visualization": "landing-object",  
+			"landing_object" : "ContanctFormVariant", 
+			"hidden":0, 
+			"title":"ContanctForm Variants"
+		},
+		"value": {"type": "string", "hidden":0, "title":"Value"}, 
+		"is_required": {"type": "boolean", "hidden":0, "title":"Is required"}, 
+		"visible_value": { "hidden":1, "value": "label"},
+		"default" : 
+		{ 
+			"hidden":1, 
+			"type": "string",
+			"label": "label",
+			"data" : [],
+			"description": "description",
+			"value" : "" 
+		}
+	}, 	
+	"YandexMapPlace": {
+		"_id": {"type": "string", "hidden":0, "title":"ID"}, 
+		"title": {"type": "string", "hidden":0, "title":"Title"}, 
+		"geo": {"type": "geo", "hidden":0, "title":"Geo"}, 
+		"types": {
+			"type": "landing_object", 
+			"kind": "array",
+			"visualization": "landing-object", 
+			"landing_object" : "PlaceType", 
+			"hidden":0, 
+			"title":"Place Types"
+		} ,
+		"visible_value": { "hidden":1, "value": "title"},
+		"default": {
+			"hidden":1,
+			"types" : [
+				{
+					"_id": "1", 
+					"title": "Default", 
+					"color": "#00FF00", 
+					"icon": "", 
+					"width": 60, 
+					"height": 60, 
+					"offset_x": 30, 
+					"offset_y": 60 
+				}
+			],
+			"type": "oval",
+			"title": "Москва",
+			"geo": [ 55.75, 37.61 ]
+		}
+	}, 
+	"PlaceType": {
+		"_id": {"type": "string", "hidden":0, "title":"ID"}, 
+		"title": {"type": "string", "hidden":0, "title":"Title"}, 
+		"type" : {
+			"type":"radio",
+			"hidden":0, 
+			"title":"Straight by row?",
+			"values": [
+				{
+					"_id" : "oval",
+					"title": "Oval"		
+				},
+				{
+					"_id" : "default",
+					"title": "Default"		
+				}
+			]
+		},
+		"color": {"type": "color", "hidden":0, "title":"Color"}, 
+		"icon": {"type": "url", "hidden":0, "title":"Icon"}, 
+		"width": {"type": "number", "hidden":0, "title":"Width"}, 
+		"height": {"type": "number", "hidden":0, "title":"Height"}, 
+		"offset_x": {"type": "number", "hidden":0, "title":"Center offset horizontal"}, 
+		"offset_y": {"type": "number", "hidden":0, "title":"Center offset vertical"}, 
+		"visible_value": { "hidden":1, "value": "title"}	
+	}, 
+	"MotivatonElement": {
+		"thumbnail": {"type": "media", "hidden":0, "title":"Thumbnail"}, 
+		"title": {"type": "string", "hidden":0, "title":"Title"}, 
+		"description": {"type": "text", "hidden":0, "title":"Description"}, 
+		"visible_value": { "hidden":1, "value": "title"},
+		"default":{
+			"hidden": 1,
+			"thumbnail" : "/assets/img/teamwork.svg",
+			"title" : "new Motivation",
+			"description" : "description of Motivation very logn text an bla-bla-bla"
+		}
+	}, 
+	"Menu": {
+		"label" : { "type" : "string", "hidden" : 0, "title" : "Label menu button" },
+		"id" : { "type" : "string", "hidden" : 0, "title" : "Section ID", "prefix" : "section-" },
+		"is_enabled" : { "type" : "boolean", "hidden" : 0, "title" : "Add button with archor to current Section?" }
+	},
+	"ProportiaInt": {
+		"order": {"type": "string", "hidden":0, "title":" Order"},
+		"value": {"type": "number", "hidden":0, "title":" persents"},
+		"visible_value": { "hidden":1, "value": "order"}	
+	}, 
+	"ColumnsProportia": {
+		"order": {"type": "string", "hidden":0, "title":" Order"},
+		"value": {"type": "number", "hidden":0, "title":" persents"},
+		"visible_value": { "hidden":1, "value": "order"}	
+	}, 
+	"SchemaType": 
+	{ 
+		"visible_value": { "hidden":1, "value": ""}	
+	}, 
+	"Position":
+	{
+		"lg": { 
+			"type" : "landing_object", 
+			"visualization" : "landing-object", 
+			"landing_object" : "ScreenSize",
+			"title":"Large screen",
+			"hidden" : 0
+		},
+		"xl": { 
+			"type" : "landing_object", 
+			"visualization" : "landing-object", 
+			"landing_object" : "ScreenSize",
+			"title":"widscreen",
+			"hidden" : 0
+		},
+		"sm": { 
+			"type" : "landing_object", 
+			"visualization" : "landing-object", 
+			"landing_object" : "ScreenSize",
+			"title":"Mobile screen landscape",
+			"hidden" : 0
+		},
+		"mc": { 
+			"type" : "landing_object", 
+			"visualization" : "landing-object", 
+			"landing_object" : "ScreenSize", 
+			"title" : "Mobile screen portrait",
+			"hidden" : 0
+		},
+		"visible_value": { "hidden":1, "value": "title"}
+	},
+	"ScreenSize": {
+		"title": { "type": "string", "hidden":0, "title":"Title" },
+		"x": {  
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Coordinate", 
+			"hidden":0, 
+			"title":"Abcisse"
+		},
+		"y": {  
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Coordinate", 
+			"hidden":0, 
+			"title":"Ordinate"
+		},
+		"w": {  
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Coordinate", 
+			"hidden":0, 
+			"title":"Width"
+		},
+		"h": {  
+			"type": "landing_object", 
+			"visualization": "landing-object", 
+			"landing_object" : "Coordinate", 
+			"hidden":0, 
+			"title":"Height"
+		},
+		"visible_value": { "hidden":1, "value": "title" } 
+	},
+	"Coordinate": {
+		"value" : { "type" : "number", "hidden" : 0, "title" : "Value", "min": 0 },
+		"ei" : { "type" : "number", "hidden" : 0, "title" : "Active measuring system (pixels or percentage)", "min" : 0 },
+		"dst" : { "type" : "string", "hidden" : 0, "title" : "Start of coordinate (start or end)" }
+	},
+	"Composition" : {
+		
+		"columns" : {
+			"title":"Numbor of columns",
+			"type": "landing_object",
+			"visualization": "landing-object", 
+			"landing_object" : "ColumnsCount",  
+			"hidden":0
+		},
+		"type" : {
+			"title":"Align of content",
+			"type": "landing_object",
+			"visualization": "landing-object", 
+			"landing_object" : "Composition",  
+			"hidden":0
+		},
+		"proportia" : {
+			"type": "landing_object", 
+			"kind": "array",
+			"visualization": "landing-object", 
+			"landing_object" : "ProportiaInt", 
+			"hidden":0, 
+			"title":"Proportia title-content",
+			"demand": {
+				"field" : "type",
+				"value" : [ 0, 1 ]
+			}
+		},
+		"is_blocked" : {"type": "boolean", "hidden":0, "title":"Block-width formatting"},
+		"text_before": {"type": "text", "hidden":1, "title":"HTML before"},
+		"text_after" : {"type": "text", "hidden":1, "title":"HTML after"},
+		"visible_value": { "hidden":1, "value": "type"} 
+	},
+	"ColumnsCount": {
+		"columns" : {"type": "number", "hidden": 0, "title":"Numbor of columns", "min": 0 }
+	}
+}

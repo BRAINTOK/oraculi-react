@@ -1,0 +1,51 @@
+{
+  "Place" : {
+      "_id"				: "id",
+      "title" 			:  "Заголовок",
+      "geo" 			: "Геопозиция",
+      "description" 	: "Description"
+
+  },
+  "Event" : {
+      "_id"				:  "id",
+      "title" 			: "Заголовок",
+      "start_date" 		:  "Начало",
+      "geo" 				: "Геопозиция",
+      "description" 		: "Description"
+  },
+  "Team" : {
+      "_id"				: "id",
+      "title" 			: "Заголовок",
+      "description" 	: "Description",
+      "owner" 			: "Owner",
+      "members" 			: "Members",
+      "geo" 				:  "Геопозиция"
+
+  },
+  "User" : {
+      "_id"			:  "id",
+      "name"  		:  "Имя",
+      "middle_name"  	:  "Отчество",
+      "family_name"  	:  "Фамилия",
+      "birthdate"  	:  "День рождения",
+      "email"			:  "Email",
+      "phone_number"	:  "Phone",
+      "telegram_id"	:  "telegram id",
+      "vk_id"			:  "vk id",
+      "leader_id"		:  "leaderId id",
+      "gender"		:  "Пол",
+      "roles"			: "Роль"
+  },
+  "UserCurrentInput": {
+      "name"  		:  "Имя",
+      "middle_name"  	:  "Отчество",
+      "family_name"  	:  "Фамилия",
+      "password"		:  "Пароль",
+      "birthdate"  	:  "День рождения",
+      "email"			:  "Email",
+      "phone_number"	:  "Phone",
+      "telegram_id"	:  "telegram id",
+      "vk_id"			:  "vk id",
+      "gender"		: "Пол"
+  }
+}

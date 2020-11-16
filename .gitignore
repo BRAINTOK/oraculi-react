@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea
+.idea/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.ENV
+.env
+.DS_Store
+
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+config.json
+/external
+/src/states/tutor/Bio.php
+/src/states/tutor/GQ.php
+/src/states/tutor/p.php
+/src/states/tutor/Tax.php
+/src/states/tutor/*.php

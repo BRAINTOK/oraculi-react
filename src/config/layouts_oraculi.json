@@ -1,0 +1,3153 @@
+{
+	"app": {
+		"title": "Дом протопии",
+		"name": "Дом протопии",
+		"external_systems": [],
+		"scopes": "",
+		"adapter": "wp",
+		"user_model": "User",
+		"roles": [
+			{
+				"_id": "subscriber",
+				"title": "subscriber"
+			},
+			{
+				"_id": "administrator",
+				"title": "administrator"
+			},
+			{
+				"_id": "pupil",
+				"title": "Pupil"
+			},
+			{
+				"_id": "tutor",
+				"title": "Tutor"
+			},
+			{
+				"_id": "courseleader",
+				"title": "CourseLeader"
+			},
+			{
+				"_id": "editor",
+				"title": "Editor"
+			}
+		]
+	},
+	"template": {
+		"menu_left": 1,
+		"header":1,
+		"icon": "/assets/img/037-talkshow.svg",
+		"icon_width": 25,
+		"icon_height": 25,
+		"avatar": "/assets/img/user1.svg",
+		"login": "/login", 
+		"style": "/assets/css/style.css",
+		"styles": [
+			{
+				"_id": 1,
+				"title": "Standart",
+				"url": "/assets/css/style.css"
+			},
+			{
+				"_id": 2,
+				"title": "Light",
+				"url": "/assets/css/style_light.css"
+			},
+			{
+				"_id": 3,
+				"title": "minimal",
+				"url": "/assets/css/style_minimal.css"
+			},
+			{
+				"_id": "4",
+				"title": "wpfest",
+				"url": "/assets/css/style_wp_ferst.css"
+			}
+		],
+		"left_menu": "pictogramm"
+	},
+	"widgets": {
+		"Aside": {
+			"title": "Aside Area widgets"
+		},
+		"CourseFilesWidget": {
+			"title": "Course files links"
+		},
+		"CourseTypeSelector": {
+			"title": "Course Type Selector",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"current-course-aside"
+			]
+		},
+		"CurrentCourseTranslation": {
+			"title": "Link to current Jitsi translation Page",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"current-course-aside"
+			]
+		},
+		"CurrentTranslations": {
+			"title": "All current Translatons"
+		},
+		"EventCalendar": {
+			"title": "Events calendar"
+		},
+		"FreeMenu": {
+			"title": "Free menu",
+			"fields": [
+				{
+					"title": "menu_id",
+					"type": "routing"
+				}
+			]
+		},
+		"GotoCourseLessons": {
+			"title": "Link to lessons of Course.",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"current-course-aside"
+			]
+		},
+		"MLogin": {
+			"title": "Alter profile for unlogged User"
+		},
+		"MLogin2": {
+			"title": "Alter profile for logged User"
+		},
+		"PriceLabel": {
+			"title": "Pay widget for Robocassa"
+		},
+		"RoomMemberPult": {
+			"title": "Added for Member of Jitsi Room"
+		},
+		"RoomPult": {
+			"title": "Added for Jitsi Room"
+		},
+		"SearchBlock": {
+			"title": "Search form"
+		},
+		"StartTranslation": {
+			"title": "Start Jitsi Translation Button"
+		},
+		"Transactions": {
+			"title": "List of Jitsi translations"
+		},
+		"TranslationMenu": {
+			"title": "added for Jitsi Translation Menu"
+		},
+		"TranslationPult": {
+			"title": "added for Jitsi Translation Pult"
+		},
+		"TutorCourseFreeLessonsWidget": {
+			"title": "Links to free lessons of Course",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"current-course-aside"
+			]
+		},
+		"TutorCurContentWidget": {
+			"title": "Content of current",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-facultet-left-aside",
+				"lesson-quote-footer",
+				"single-result-left-aside",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"single-article-left-aside",
+				"single-article-right-aside",
+				"single-event-left-aside",
+				"single-test-left-aside",
+				"translation-menu",
+				"current-course-aside",
+				"room"
+			]
+		},
+		"TutorCurrentClassWidget": {
+			"title": "Buttons List of Classes of current",
+			"areas": [
+				"lesson-quote-footer",
+				"single-result-left-aside",
+				"single-article-left-aside",
+				"single-article-right-aside",
+				"single-event-left-aside",
+				"single-test-left-aside"
+			]
+		},
+		"TutorCurrentCourseWidget": {
+			"title": "Buttons List of Courses of current",
+			"areas": [
+				"lesson-quote-footer",
+				"single-result-left-aside",
+				"single-article-left-aside",
+				"single-article-right-aside",
+				"single-event-left-aside",
+				"single-test-left-aside"
+			]
+		},
+		"TutorCurrentFacultetWidget": {
+			"title": "Buttons List of Facultets of current",
+			"areas": [
+				"single_course",
+				"curent-course-content",
+				"single-result-left-aside",
+				"single-course-left-aside",
+				"single-course-lessons-left-aside",
+				"current-course-aside"
+			]
+		},
+		"TutorCurrentThemeWidget": {
+			"title": "Buttons List of Themes of current",
+			"areas": [
+				"lesson-quote-footer",
+				"single-result-left-aside",
+				"single-article-left-aside",
+				"single-article-right-aside",
+				"single-test-left-aside"
+			]
+		},
+		"TutorFacultetResultsWidget": {
+			"title": "Results carousel",
+			"areas": [
+				"single-facultet-left-aside"
+			]
+		},
+		"TutorLessonFilesWidget": {
+			"title": "Links to Lesson's includes",
+			"areas": [
+				"lesson-quote-footer",
+				"single-article-left-aside"
+			]
+		},
+		"FreeHTMLWidget": {
+			"title": "Free html text",
+			"fields": [
+				{
+					"title": "html",
+					"type": "code"
+				},
+				{
+					"title": "container_class",
+					"type": "string"
+				}
+			]
+		},
+		"FreeNavLinkWidget": {
+			"title":"Free NavLink ",
+			"fields": [
+				{
+					"title": "link_route",
+					"type": "string"
+				},
+				{
+					"title": "className",
+					"type": "string"
+				},
+				{
+					"title": "activeClassName",
+					"type": "string"
+				},
+				{
+					"title": "label",
+					"type": "string"
+				}
+			]
+		},
+		"FreeRouteWidget": {
+			"title":"Free Route",
+			"fields": [
+				{
+					"title": "link_route",
+					"type": "string"
+				},
+				{
+					"title": "className",
+					"type": "string"
+				},
+				{
+					"title": "activeClassName",
+					"type": "string"
+				},
+				{
+					"title": "label",
+					"type": "string"
+				}
+			]
+		}
+	},
+	"widget-area": {
+		"layout-left": {
+			"title": "Header Link",
+			"description": "Replace main Header linkck",
+			"area": []
+		},
+		"before-profile": {
+			"title": "Before Profile",
+			"description": "Area in Header before Userprofile",
+			"area": [
+				{
+					"component": "SearchBlock"
+				}
+			]
+		},
+		"layout-header": {
+			"title": "Header",
+			"description": "Area for Header.",
+			"area": []
+		},
+		"before-layout-header": {
+			"title": "Before Header",
+			"description": "Area in Header before Header Menu.",
+			"area": []
+		},
+		"layout-header-after-menu": {
+			"title": "Header after Menu",
+			"description": "Area in Header between Header Menu and User's Profile Component.",
+			"area": []
+		},
+		"unlogin_panel": {
+			"title": "Unlogin Panel",
+			"description": "Replace User's Profile UI when User is not logged.",
+			"area": []
+		},
+		"login_panel": {
+			"title": "Login Panel",
+			"description": "Replace User's Profile UI when User is logged.",
+			"area": []
+		},
+		"pagination": {
+			"title": "Pagination",
+			"description": "Area in every Pagination Component",
+			"area": [
+				{
+					"component": "TutorPagiWidget"
+				}
+			]
+		},
+		"single_course": {
+			"title": "Before Course's Guest ",
+			"description": "Before every Course's Guest Page",
+			"area": [
+				{
+					"component": "GotoCourseLessons"
+				},
+				{
+					"component": "PriceLabel"
+				}
+			]
+		},
+		"curent-course-content": {
+			"title": "Course's Guest",
+			"description": "Every Course's Guest Page has area under main content/",
+			"area": [
+				{
+					"component": "TutorCurContentWidget"
+				}
+			]
+		},
+		"layout-footer": {
+			"title": "Main Footer",
+			"description": "Main Footer.",
+			"area": []
+		},
+		"user-test-results-left-aside": {
+			"title": "Tests results left",
+			"description": "User's Tests Results Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "FreeMenu",
+					"menu_id": "personal_menu"
+				}
+			]
+		},
+		"user-favorites-left-aside": {
+			"title": "Favorites left",
+			"description": "User's Favorits Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "FreeMenu",
+					"menu_id": "personal_menu"
+				}
+			]
+		},
+		"single-facultet-left-aside": {
+			"title": "Facultet left",
+			"description": "Every Facultet's Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorFacultetResultsWidget"
+				},
+				{
+					"component": "PriceLabel"
+				}
+			]
+		},
+		"lesson-quote-footer": {
+			"title": "Lesson Quote",
+			"description": "Lesson Qoute has footer.",
+			"area": [
+				{
+					"component": "TutorLikerWidget"
+				}
+			]
+		},
+		"single-result-left-aside": {
+			"title": "Result left",
+			"description": "Every Result Page has right aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorCurrentFacultetWidget"
+				}
+			]
+		},
+		"single-course-left-aside": {
+			"title": "Course left",
+			"description": "Every Course's Guest Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorCourseFreeLessonsWidget"
+				}
+			]
+		},
+		"single-course-lessons-left-aside": {
+			"title": "Course Inner left",
+			"description": "Every Course's Inner Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorSubCoursesWidget"
+				}
+			]
+		},
+		"single-article-left-aside": {
+			"title": "Article left",
+			"description": "Every Article's Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorCurrentCourseWidget"
+				}
+			]
+		},
+		"single-article-right-aside": {
+			"title": "Article right",
+			"description": "Every Article's Page has right aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorLessonFilesWidget"
+				}
+			]
+		},
+		"single-event-left-aside": {
+			"title": "Event left",
+			"description": "Every Event's Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorCurrentCourseWidget"
+				},
+				{
+					"title": "Event Calendar",
+					"component": "EventCalendar"
+				}
+			]
+		},
+		"single-test-left-aside": {
+			"title": "Tests left",
+			"description": "Every Test's Page has left aside. This area to widgets.",
+			"area": [
+				{
+					"component": "TutorCurrentCourseWidget"
+				},
+				{
+					"component": "TutorCurrentClassWidget"
+				},
+				{
+					"component": "TutorCurrentThemeWidget"
+				}
+			]
+		},
+		"aside-left": {
+			"title": "Aside widget",
+			"description": "Widget area in every Area. Config by routing",
+			"area": [
+				{
+					"component": "Aside"
+				}
+			]
+		},
+		"translation-menu": {
+			"title": "Translation's menu",
+			"description": "Added UI for Menu of every Taranslation",
+			"area": [
+				{
+					"component": "TranslationMenu"
+				}
+			]
+		},
+		"current-course-aside": {
+			"title": "Current course",
+			"description": "Current Course Translation Link",
+			"area": [
+				{
+					"component": "CurrentCourseTranslation"
+				}
+			]
+		},
+		"ontableRow": {
+			"title": "Admin row's added",
+			"description": "Admin Table of every Row.",
+			"area": []
+		},
+		"room-member": {
+			"title": "Room's member panel",
+			"description": "UI for every Room's Member navigation",
+			"area": [
+				{
+					"component": "RoomMemberPult"
+				}
+			]
+		},
+		"room": {
+			"title": "Room",
+			"description": "Admin's UI for every Room navigation",
+			"area": [
+				{
+					"component": "RoomPult"
+				}
+			]
+		},
+		"Transactions": {
+			"title": "List of transitions",
+			"description": "List of transitions",
+			"area": [
+				{
+					"component": "Transactions"
+				}
+			]
+		},
+		"fest-member-link-0": {
+			"title": "WP Fest Member's menu",
+			"description": "Button to Navlink",
+			"area": [ ]
+		},
+		"fest-member-link-1": {
+			"title": "WP Fest Member's menu",
+			"description": "Button to Navlink",
+			"area": [ ]
+		},
+		"fest-member-link-2": {
+			"title": "WP Fest Member's menu",
+			"description": "Button to Navlink",
+			"area": [ ]
+		},
+		"fest-member-route": {
+			"title": "WP Fest Member's route Components",
+			"description": "Tab content in",
+			"area": [  ]
+		},
+		"before-categoty-form": {
+			"title": "Before categoty form",
+			"description": "Admin form of data-type before",
+			"area": [  ]
+		},
+		"categoty-form": {
+			"title": "categoty-form",
+			"description": "Switch content of Ctegory form in admin",
+			"area": [
+				{
+					"component": "TestCategoryForm" 
+				}
+			]
+		}, 
+		"after-categoty-form": {
+			"title": "After categoty form",
+			"description": "Admin form of data-type after",
+			"area": [ 
+				{
+					"component":"EventMembersWidget"
+				}					
+			]
+		}, 
+		"ontableRow": {
+			"title": "cell in Admin Table",
+			"description": "Cell",
+			"area": [
+				{
+					"component": "EventRequestLabelWidget"
+				}	
+			]
+		}, 
+		"menu-left-element": {
+			"title": "Left Menu element",
+			"description": "every Left menu element",
+			"area": [
+				{
+					"component": "EventsRequestLabelWidget"
+				},
+				{
+					"component": "QuestionHiddenLabelWidget"
+				},
+				{
+					"component": "UsersLockLabelWidget"
+				}	
+			]
+		}, 
+		"fest-header": {
+			"title": "WPFest Header",
+			"description": "",
+			"area": [ 
+				{
+					"component": "WPFestHeader"
+				}	
+			]
+		}, 
+		"landing-object" : {
+			"title": "Landing object's parameter",
+			"description": "in admin From",
+			"area": [ 
+				{
+					"component": "LandingObject"
+				}	
+			]
+		}
+	},
+	"schema": {
+		
+		"Options": {
+			"admin_data": { 
+				"fill": [
+					"#426d8c",
+					"#223746"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"email": {
+					"type": "email",
+					"title": "Administrator email",
+					"thread": 0,
+					"editable": 1
+				},
+				"adress": {
+					"type": "string",
+					"title": "Public address",
+					"thread": 0,
+					"editable": 1
+				},
+				"vk": {
+					"type": "url",
+					"title": "VK link",
+					"thread": 0,
+					"editable": 1
+				},
+				"youtube": {
+					"type": "url",
+					"title": "YouTube Link",
+					"thread": 0,
+					"editable": 1
+				},
+				"android": {
+					"type": "url",
+					"title": "Android Link",
+					"thread": 0,
+					"editable": 1
+				},
+				"apple": {
+					"type": "url",
+					"title": "Apple Link",
+					"thread": 0,
+					"editable": 1
+				},
+				"background_video": {
+					"type": "string",
+					"title": "Background video ID",
+					"thread": 0,
+					"editable": 1
+				},
+				"info_video": {
+					"type": "string",
+					"title": "Info video ID",
+					"thread": 0,
+					"editable": 1
+				},
+				"default_img_name": {
+					"type": "text",
+					"title": "Название иконки",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 0
+				},
+				"default_img": {
+					"type": "media",
+					"title": "Default image",
+					"thread": 0,
+					"editable": 1
+				}, 				
+				"thumbnail_name": {
+					"type": "text",
+					"title": "Название иконки",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 0
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Main thumbnail",
+					"thread": 0,
+					"editable": 1
+				},
+				"main_title": {
+					"type": "string",
+					"title": "Main title",
+					"thread": 0,
+					"editable": 1
+				},
+				"pay_system": {
+					"type": "radio",
+					"title": "Paying tyoe",					
+					"values": [
+						{
+							"_id" : "",
+							"title": "None"		
+						},
+						{
+							"_id" : "robocassa",
+							"title": "Robocassa"		
+						},
+						{
+							"_id" : "yandex_money",
+							"title": "Yandex money"		
+						}
+					],
+					
+					"thread": 0,
+					"editable": 1
+				},
+				"goods_type": {
+					"type": "radio",
+					"title": "Paying type",					
+					"values": [
+						{
+							"_id" : "Bio_Course",
+							"title": "Course"		
+						},
+						{
+							"_id" : "Bio_Facultet",
+							"title": "Facultet"		
+						}
+					],					
+					"thread": 0,
+					"editable": 1,
+					"demand": {
+						"field": "pay_system",
+						"value": ["robocassa", "yandex_money"]
+					}
+				},
+				"robocassa_key": {
+					"type": "string",
+					"title": "robocassa key",
+					"thread": 0,
+					"editable": 1,
+					"demand": {
+						"field": "pay_system",
+						"value": ["robocassa"]
+					}
+				},
+				"robocassa_password_1": {
+					"type": "string",
+					"title": "robocassa password 1",
+					"thread": 0,
+					"editable": 1,
+					"demand": {
+						"field": "pay_system",
+						"value": ["robocassa"]
+					}
+				},
+				"robocassa_password_2": {
+					"type": "string",
+					"title": "robocassa password 2",
+					"thread": 0,
+					"editable": 1,
+					"demand": {
+						"field": "pay_system",
+						"value": ["robocassa"]
+					}
+				},
+				"jitsi_server_url": {
+					"type": "url",
+					"title": "jitsi server url",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Class"
+		},
+		"Bio_Facultet": {
+			"admin_data": {
+				"filter": {
+					"parent": {
+						"type": "string",
+						"value": "0"
+					},
+					"order_by_meta": {
+						"type": "string",
+						"value": "order"
+					},
+					"order": {
+						"type": "string",
+						"value": "ASC"
+					}
+				},
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				},
+				"thumbnail_name": {
+					"type": "text",
+					"title": "Thumbnail name",
+					"thread": 0,
+					"editable": 1,
+					"hidden": 1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Thumbnail",
+					"thread": 1,
+					"editable": 1
+				},
+				"icon_name": {
+					"type": "text",
+					"title": "Icon name",
+					"thread": 0,
+					"editable": 1,
+					"hidden": 1
+				},
+				"icon": {
+					"type": "media",
+					"title": "Icon",
+					"thread": 1,
+					"editable": 1
+				},
+				"price": {
+					"type": "int",
+					"title": "Price",
+					"thread": 1,
+					"editable": 1
+				},
+				"order": {
+					"type": "int",
+					"title": "Порядковый номер",
+					"thread": 1,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Facultet"
+		},
+		"Bio_Course": {
+			"admin_data": {
+				"filter": {
+					"parent": {
+						"type": "string",
+						"value": "0"
+					},
+					"order_by_meta": {
+						"type": "string",
+						"value": "order"
+					},
+					"order": {
+						"type": "string",
+						"value": "ASC"
+					}
+				},
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				},
+				"thumbnail_name": {
+					"type": "text",
+					"title": "Thumbnail name",
+					"thread": 0,
+					"editable": 1,
+					"hidden": 1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Thumbnail",
+					"thread": 1,
+					"editable": 1
+				},
+				"parent": {
+					"type": "external",
+					"kind": "type",
+					"component": "Bio_Course",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"title": "Parent",
+					"thread": 1,
+					"editable": 0,
+					"hidden": 1
+				},
+				"children": {
+					"title": "Courses",
+					"type": "array",
+					"kind": "type",
+					"component": "Bio_Course",
+					"external_fields": [
+						"id",
+						"post_title",
+						"post_content",
+						"post_date",
+						"parent",
+						"thumbnail_name",
+						"thumbnail",
+						"children",
+						"price",
+						"order"
+					],
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"price": {
+					"type": "int",
+					"title": "Price",
+					"thread": 1,
+					"editable": 1
+				},
+				"order": {
+					"type": "int",
+					"title": "Order",
+					"thread": 1,
+					"editable": 1
+				},
+				"locked": {
+					"type": "boolean",
+					"title": "Locked",
+					"thread": 1,
+					"editable": 1,
+					"col_width":80
+				},
+				"is_closed": {
+					"type": "boolean",
+					"title": "Hide request membership",
+					"thread": 1,
+					"editable": 1,
+					"col_width": 70
+				},
+				"is_member": {
+					"type": "boolean",
+					"title": "Current User is member",
+					"thread": 0,
+					"editable": 0,
+					"col_width":80
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Course"
+		},
+		"Bio_Class": {
+			"admin_data": {
+				"filter": {
+					"parent": {
+						"type": "string",
+						"value": "0"
+					},
+					"order_by_meta": {
+						"type": "string",
+						"value": "order"
+					},
+					"order": {
+						"type": "string",
+						"value": "ASC"
+					}
+				},
+				"fill": [
+					"#426d8c",
+					"#223746"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				},
+				"order": {
+					"type": "int",
+					"title": "Order",
+					"thread": 1,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Class"
+		},
+		"Bio_Biology_Theme": {
+			"admin_data": {
+				"fill": [
+					"#bb5fac",
+					"#8a497f"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Thumbnail",
+					"thread": 1,
+					"editable": 1
+				},
+				"icon": {
+					"type": "media",
+					"title": "Icon",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				},
+				"order": {
+					"type": "int",
+					"title": "Order",
+					"thread": 1,
+					"editable": 1
+				},
+				"articles": {
+					"title": "Articles",
+					"type": "array",
+					"kind": "type",
+					"component": "Bio_Article",
+					"external_fields": [
+						"id",
+						"post_title",
+						"post_content",
+						"post_date",
+						"parent",
+						"thumbnail_name",
+						"thumbnail"
+					],
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"bio_test": {
+					"title": "Tests",
+					"type": "array",
+					"kind": "type",
+					"component": "Bio_Test",
+					"external_fields": [
+						"id",
+						"post_title",
+						"post_content",
+						"post_date",
+						"parent",
+						"thumbnail_name",
+						"thumbnail"
+					],
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Theme"
+		},
+		"Bio_Test_Category": {
+			"admin_data": {
+				"fill": [
+					"#6cc76b",
+					"#539452"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Test Category"
+		},
+		"Bio_Role_Taxonomy": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Role Taxonomy"
+		},
+		"Bio_Discount": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Discount"
+		},
+		"Bio_Olimpiad_Type": {
+			"admin_data": {
+				"fill": [
+					"#ce8c3b",
+					"#ad7734"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Olympiad Type"
+		},
+		"Bio_Mailing_Group": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Description",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Mailing Group"
+		},
+		"Bio_Article": {
+			"admin_data": {
+				"filter": {
+					"order_by_meta": {
+						"type": "string",
+						"value": "order"
+					},
+					"order": {
+						"type": "string",
+						"value": "ASC"
+					}
+				},
+				"fill": [
+					"#41d8a0",
+					"#3abf8e"
+				],
+				"__table_type__": "tab",
+				"__tab_field__": "bio_course"
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Thumbnail",
+					"thread": 0,
+					"editable": 1
+				},
+				"bio_course": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Course",
+					"title": "Courses",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_class": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Class",
+					"title": "Classes",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_biology_theme": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Biology_Theme",
+					"title": "Themes",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_olimpiad_type": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Olimpiad_Type",
+					"title": "Olimpiad Types",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 0,
+					"editable": 1
+				},
+				"bio_role_taxonomy": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Role_Taxonomy",
+					"title": "Role Taxonomies",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 0,
+					"editable": 1
+				},
+				"order": {
+					"type": "int",
+					"title": "Order",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_date": {
+					"type": "date",
+					"title": "Date",
+					"thread": 0,
+					"editable": 1
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 0,
+					"editable": 1
+				},
+				"is_favorite": {
+					"type": "boolean",
+					"title": "Is Favorite for current User",
+					"thread": 0,
+					"editable": 0
+				},
+				"is_member": {
+					"type": "boolean",
+					"title": "Current User is member",
+					"thread": 1,
+					"editable": 0
+				},
+				"is_free": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "Free content",
+					"thread": 1,
+					"editable": 1
+				},
+				"is_logged_in": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "Hide for unloggeds",
+					"thread": 1,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Урок"
+		},
+		"Bio_Event": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				},
+				"bio_course": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Course",
+					"title": "Course",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_class": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Class",
+					"title": "Classes",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_biology_theme": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Biology_Theme",
+					"title": "Themes",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_olimpiad_type": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Olimpiad_Type",
+					"title": "Olimpiad Types",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"test_id": {
+					"type": "external",
+					"kind": "type",
+					"filter_type": "meta",
+					"component": "Bio_Test",
+					"title": "Test",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"time": {
+					"type": "date",
+					"title": "Date",
+					"thread": 1,
+					"editable": 1
+				},
+				"request_count": {
+					"type": "number",
+					"title": "Request Count",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Event"
+		},
+		"Bio_Test": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 0,
+					"editable": 1
+				},
+				"bio_course": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Course",
+					"title": "Course",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_biology_theme": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Biology_Theme",
+					"title": "Themes",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_olimpiad_type": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Olimpiad_Type",
+					"title": "Olimpiad Types",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_class": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Class",
+					"title": "Class",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_test_category": {
+					"type": "array",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Test_Category",
+					"title": "Test Category",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"is_show_answer": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "Show right answer after choose",
+					"thread": 0,
+					"editable": 1
+				},
+				"is_show_results": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "Show result after test",
+					"thread": 0,
+					"editable": 1
+				},
+				"is_shuffle": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "Shuffle Questions?",
+					"thread": 0,
+					"editable": 1
+				},
+				"is_timed": {
+					"type": "boolean",
+					"filter_type": "meta",
+					"title": "With time limit",
+					"thread": 1,
+					"editable": 1
+				},
+				"duration": {
+					"type": "int",
+					"title": "Duration per sec",
+					"thread": 1,
+					"editable": 1
+				},
+				"try_count": {
+					"type": "int",
+					"title": "Try count.",
+					"thread": 1,
+					"editable": 1
+				},
+				"publish_type": {
+					"type": "radio",
+					"filter_type": "meta",
+					"values": [
+						{
+							"_id" : 1,
+							"title": "Standart"		
+						},
+						{
+							"_id" : 2,
+							"title": "Course Electronic"		
+						},
+						{
+							"_id" : 3,
+							"title": "Course Intramural"		
+						}
+					], 
+					"title": "Publish type",
+					"thread": 1,
+					"editable": 1
+				},
+				"questions": {
+					"type": "array",
+					"kind": "type", 
+					"component": "Bio_TestQuestion",
+					"title": "Questions",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 0,
+					"editable": 1,
+					"hidden":1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Test"
+		},
+		"Bio_TestQuestion": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 0,
+					"editable": 0,
+					"hidden":1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Thumbnail",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 1,
+					"editable": 1
+				}, 
+				"answers": {
+					"type": "array",
+					"kind": "type",
+					"component": "Bio_TestQuestionAnswer",
+					"title": "Answers",
+					"external_fields": [
+						"id",
+						"post_content"
+					],
+					"thread": 0,
+					"editable": 0
+				},
+				"hidden": {
+					"type": "boolean",
+					"title": "Need approve",	
+					"description": "Question wait approve by Administartors and hidden for Pupils (YES) or available add to Test (NO).",
+					"filter_type": "meta",
+					"thread": 1,
+					"editable": 1
+				},
+				"is_deleted": {
+					"type": "boolean",
+					"title": "Deleted",
+					"thread": 0,
+					"editable": 1,
+					"hidden": 1
+				},
+				"single": {
+					"type": "boolean",
+					"title": "Need single answer",			
+					"filter_type": "meta",
+					"thread": 1,
+					"editable": 1
+				},
+				"type": {
+					"type": "radio",
+					"title": "Type",					
+					"filter_type": "meta",
+					"values": [
+						"multichoice",
+						"truefalse",
+						"matching"
+					], 
+					"thread": 1,
+					"editable": 1
+				},
+				"penalty": {
+					"type": "String",
+					"title": "penalty",
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_test": {
+					"type": "array",
+					"kind": "type", 			
+					"filter_type": "meta",
+					"component": "Bio_Test",
+					"title": "Test",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"bio_biology_theme": {
+					"kind": "type",
+					"type": "external",		
+					"filter_type": "taxonomies",
+					"component": "Bio_Biology_Theme",
+					"title": "Theme",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Test's Question"
+		},
+		"Bio_TestQuestionAnswer": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"question_id": {
+					"kind": "type",
+					"type": "external",
+					"component": "Bio_TestQuestion",
+					"title": "Question",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 0,
+					"editable": 0
+				},
+				"is_deleted": {
+					"type": "boolean",
+					"title": "Is deleted",
+					"thread": 0,
+					"editable": 1
+				},
+				"is_subquestion": {
+					"type": "boolean",
+					"title": "Is subquestion",
+					"thread": 0,
+					"editable": 1
+				},
+				"subquestion_answer_id": {
+					"type": "string",
+					"title": "corresponding answer's ID",
+					"thread": 0,
+					"editable": 1
+				},
+				"order": {
+					"type": "number",
+					"title": "Order",
+					"thread": 0,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Подробное описание",
+					"thread": 0,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_content",
+			"name": "Test's Question's Answer"
+		},
+		"Bio_ImageResult": {
+			"admin_data": {
+				"fill": [
+					"#394B59",
+					"#30404D"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Description",
+					"thread": 0,
+					"editable": 1
+				},
+				"thumbnail_name": {
+					"type": "text",
+					"title": "Название иконки",
+					"thread": 0,
+					"editable": 1,
+					"hidden": 1
+				},
+				"thumbnail": {
+					"type": "media",
+					"title": "Иконка",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 1,
+					"editable": 0
+				},
+				"bio_facultet": {
+					"kind": "type",
+					"type": "external",
+					"filter_type": "taxonomies",
+					"component": "Bio_Facultet",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"title": "Facultet",
+					"thread": 1,
+					"editable": 0
+				},
+				"bio_course": {
+					"type": "external",
+					"kind": "type",
+					"filter_type": "taxonomies",
+					"component": "Bio_Course",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"title": "Course",
+					"thread": 1,
+					"editable": 0,
+					"hidden": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Result"
+		},
+		"PE_Translation": {
+			"admin_data": {
+				"fill": [
+					"#394B59",
+					"#30404D"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Title",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Description",
+					"thread": 0,
+					"editable": 1
+				},
+				"start_date": {
+					"type": "date",
+					"title": "Start",
+					"thread": 1,
+					"editable": 1
+				},
+				"end_date": {
+					"type": "date",
+					"title": "Finish",
+					"thread": 1,
+					"editable": 1
+				},
+				"external_id": {
+					"type": "string",
+					"title": "Main Room ID",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"external_title": {
+					"type": "string",
+					"title": "Main Room Title",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"is_locked": {
+					"type": "boolean",
+					"title": "Is locked by password?",
+					"thread": 1,
+					"editable": 1
+				},
+				"pe_room": {
+					"title": "Rooms",
+					"type": "array",
+					"kind": "type",
+					"component": "PE_Room",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 0
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Transaction"
+		},
+		"PE_Room": {
+			"admin_data": {
+				"fill": [
+					"#394B59",
+					"#30404D"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Description",
+					"thread": 0,
+					"editable": 1
+				},
+				"external_id": {
+					"type": "string",
+					"title": "Main Room ID",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"is_locked": {
+					"type": "boolean",
+					"title": "is locked by password?",
+					"thread": 0,
+					"editable": 0
+				},
+				"password": {
+					"type": "string",
+					"title": "password",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 1,
+					"editable": 0
+				},
+				"pe_translation": {
+					"title": "Трансляция",
+					"kind": "type",
+					"type": "external",
+					"component": "PE_Translation",
+					"external_fields": [
+						"id",
+						"post_title"
+					],
+					"thread": 1,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Translation Room"
+		},
+		"PE_ContactFormMessage": {
+			"admin_data": {
+				"fill": [
+					"#394B59",
+					"#30404D"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 0
+				},
+				"post_content": {
+					"type": "text",
+					"title": "Content",
+					"thread": 1,
+					"editable": 0 
+				},
+				"post_date": {
+					"type": "date",
+					"title": "Date",
+					"thread": 1,
+					"editable": 0
+				},
+				"post_author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 1,
+					"editable": 0
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "ContanctForm Messages"
+		},
+		"Comment": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "id",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"discussion_id": {
+					"type": "number",
+					"title": "discussion_id",
+					"thread": 0,
+					"editable": 0
+				},
+				"discussion_type": {
+					"type": "string",
+					"title": "discussion_type",
+					"thread": 0,
+					"editable": 0
+				},
+				"discussion": {
+					"kind": "type",
+					"type": "external",
+					"component": "Post",
+					"title": "Дискуссия",
+					"thread": 1,
+					"editable": 0
+				},
+				"content": {
+					"type": "text",
+					"title": "Содержание",
+					"thread": 1,
+					"editable": 1
+				},
+				"parent": {
+					"kind": "type",
+					"type": "external",
+					"component": "Comment",
+					"title": "Родительский",
+					"visibled_value": "content",
+					"thread": 1,
+					"editable": 0
+				},
+				"author": {
+					"kind": "type",
+					"type": "external",
+					"component": "User",
+					"title": "Автор",
+					"external_fields": [
+						"id",
+						"display_name"
+					],
+					"thread": 1,
+					"editable": 0
+				}
+			},
+			"visibled_value": "content",
+			"name": "Comment"
+		},
+		"Post": {
+			"admin_data": {
+				"fill": []
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "id",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 0
+				},
+				"post_content": {
+					"type": "string",
+					"title": "Описание",
+					"thread": 1,
+					"editable": 0
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Post"
+		},
+		"MPayment": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "id",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 0
+				},
+				"post_content": {
+					"type": "string",
+					"title": "Описание",
+					"thread": 1,
+					"editable": 0
+				},
+				"summae": {
+					"type": "int",
+					"title": "Сумма",
+					"thread": 1,
+					"editable": 0
+				},
+				"is_success": {
+					"type": "boolean",
+					"title": "Is Success",
+					"thread": 0,
+					"editable": 0
+				}
+			},
+			"name": "Payment"
+		},
+		"Page": {
+			"admin_data": {
+				"fill": [
+					"#B6D94C",
+					"#728C23"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "id",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"post_title": {
+					"type": "string",
+					"title": "Заголовок",
+					"thread": 1,
+					"editable": 1
+				}
+			},
+			"visibled_value": "post_title",
+			"name": "Page"
+		},
+		"User": {
+			"admin_data": {
+				"fill": [
+					"#5C255C",
+					"#A854A8"
+				]
+			},
+			"apollo_fields": {
+				"id": {
+					"type": "string",
+					"title": "id",
+					"thread": 0,
+					"editable": 0
+				},
+				"user_login": {
+					"type": "string",
+					"title": "Email",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"user_email": {
+					"type": "string",
+					"title": "Email",
+					"thread": 1,
+					"editable": 1
+				},
+				"is_blocked": {
+					"type": "boolean",
+					"title": "Заблокирован?",
+					"thread": 1,
+					"editable": 1
+				},
+				"phone": {
+					"type": "phone",
+					"title": "Телефон",
+					"thread": 0,
+					"editable": 1
+				},
+				"first_name": {
+					"type": "string",
+					"title": "Имя",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"last_name": {
+					"type": "string",
+					"title": "Фамилия",
+					"thread": 0,
+					"editable": 0,
+					"hidden": 1
+				},
+				"display_name": {
+					"type": "string",
+					"title": "Экранное имя",
+					"thread": 1,
+					"editable": 1
+				},
+				"avatar": {
+					"type": "media",
+					"title": "Аватар",
+					"thread": 1,
+					"editable": 1
+				},
+				"roles": {
+					"type": "checkbox",
+					"component": "string",
+					"values": [
+						"administrator",
+						"subscriber"
+					],
+					"title": "Roles",
+					"thread": 1,
+					"editable": 1
+				},
+				"payments": {
+					"kind": "type",
+					"type": "array",
+					"component": "MPayment",
+					"visualization": "Transactions",
+					"title": "История платежей",
+					"external_fields": [
+						"id",
+						"post_title",
+						"summae",
+						"is_success"
+					],
+					"thread": 0,
+					"editable": 0
+				}
+			},
+			"visibled_value": "display_name",
+			"name": "Пользователь"
+		}
+	},
+	"routing": {
+		"profile": [
+			{
+				"title": "Текущий образовательный пакет",
+				"icon": "fas fa-chalkboard-teacher",
+				"route": "current-course",
+				"component": "MCurrentCourse",
+				"is_left": 0,
+				"is_target": "2",
+				"capability": []
+			},
+			{
+				"title": "Favorites",
+				"icon": "fas fa-heart",
+				"route": "favorites",
+				"component": "TutorArticlesFavorite",
+				"is_left": 0
+			},
+			{
+				"title": "My tests",
+				"icon": "fas fa-vial",
+				"route": "tests-tesult",
+				"component": "TutorUserTestResults",
+				"is_left": 0
+			},
+			{
+				"title": "Личные данные",
+				"icon": "fas fa-user-cog",
+				"route": "profile",
+				"component": "MProfileState",
+				"is_left": 0
+			},
+			{
+				"title": "Администрирование",
+				"icon": "fas fa-tools",
+				"target_id": "admin"
+			}
+		],
+		"extended_routes": [
+			{
+				"title": "Landing",
+				"icon": "",
+				"route": "",
+				"component": "LandingState",
+				"id": "landing",
+				"is_left": 0
+			}, 
+			{
+				"title": "Facultet",
+				"icon": "/assets/img/minimal/033-content writing.svg",
+				"route": "facultet",
+				"component": "TutorFacultet",
+				"is_left": 0
+			},
+			{
+				"title": "Image  Result",
+				"icon": "",
+				"route": "result",
+				"component": "TutorResult",
+				"is_left": 0
+			},
+			{
+				"title": "Event",
+				"icon": "fas fa-calendar-alt",
+				"route": "event",
+				"component": "TutorEvent",
+				"is_left": 0
+			},
+			{
+				"title": "Test",
+				"icon": "fas fa-vial",
+				"route": "test",
+				"component": "TutorTest",
+				"is_left": 0
+			},
+			{
+				"title": "Translations",
+				"icon": "",
+				"route": "translations",
+				"component": "TranslationsState",
+				"aside": [
+					{
+						"component": "StartTranslation",
+						"title": ""
+					},
+					{
+						"component": "CurrentTranslations",
+						"title": "Current Translations"
+					}
+				],
+				"is_left": 0
+			},
+			{
+				"title": "",
+				"icon": "",
+				"route": "translation",
+				"component": "SingleTranslationState",
+				"aside": [
+					{
+						"component": "TranslationPult",
+						"title": ""
+					}
+				],
+				"is_left": 0
+			},
+			{
+				"title": "Наши продукты",
+				"icon": "",
+				"route": "products",
+				"component": "MProducts",
+				"is_left": 0
+			},
+			{
+				"title": "История моих платежей",
+				"icon": "",
+				"route": "payments",
+				"component": "MMyPayments",
+				"is_left": 0
+			},
+			{
+				"title": "Личный кабинет",
+				"icon": "",
+				"route": "cabinet",
+				"component": "MCabinet",
+				"is_left": 0
+			},
+			{
+				"title": "Course",
+				"icon": "",
+				"route": "course",
+				"component": "TutorCourse",
+				"is_left": 0
+			},
+			{
+				"title": "Course",
+				"icon": "",
+				"route": "course-lessons",
+				"component": "TutorCourseLessons",
+				"is_left": 0
+			}, 
+			{
+				"title": "Theme",
+				"icon": "",
+				"route": "theme-lessons",
+				"component": "TutorThemeLessons",
+				"is_left": 0
+			},
+			{
+				"title": "Class",
+				"icon": "",
+				"route": "class-lessons",
+				"component": "TutorClassLessons",
+				"is_left": 0
+			},
+			{
+				"title": "Article",
+				"icon": "",
+				"route": "article",
+				"component": "TutorLesson",
+				"is_left": 0
+			},
+			{
+				"title": "Купить",
+				"icon": "fas fa-cog",
+				"route": "pay",
+				"html": " ",
+				"is_left": 0
+			},
+			{
+				"title": "",
+				"icon": "fas fa-cog",
+				"route": "login",
+				"component": "SchoolLoginState"
+			},
+			{
+				"title": "Сброс",
+				"icon": "fas fa-cog",
+				"route": "reset",
+				"component": "SchoolResetPasswordForm",
+				"is_left": 0
+			},
+			{
+				"title": "Напомнить пароль",
+				"icon": "fas fa-cog",
+				"route": "remember",
+				"component": "RememberPasswordForm",
+				"is_left": 0
+			},
+			{
+				"title": "Удачная покупка",
+				"icon": "fas fa-cog",
+				"route": "paymentsuccess",
+				"is_left": 0,
+				"component": "RobokassaSuccessState"
+			},
+			{
+				"title": "Неудачная попытка оплаты",
+				"icon": "fas fa-cog",
+				"route": "paymentfailure",
+				"is_left": 0,
+				"component": "RobokassaFailureState"
+			},
+			{
+				"title": "Settings",
+				"icon": "fas fa-cog",
+				"route": "cog",
+				"component": "SettingsState"
+			},
+			{
+				"title": "Category",
+				"icon": "fas fa-cog",
+				"route": "category",
+				"component": "SchoolCategoryState",
+				"is_left": 0
+			},
+			{
+				"title": "",
+				"icon": "/assets/img/usecor.svg",
+				"route": "register",
+				"component": "SchoolRegisterState",
+				"is_left": 0
+			},
+			{
+				"title": "404",
+				"icon": "",
+				"route": "404",
+				"component": "NoMatchState"
+			},
+			{
+				"title": "",
+				"icon": "",
+				"route": "search",
+				"component": "SchoolSearchState",
+				"is_left": 0
+			} 
+		],
+		"main_menu": [
+			{
+				"title": "Education",
+				"icon": "/assets/img/minimal/049-abc.svg",
+				"route": "education",
+				"component": "MainAdminState",
+				"is_left": 0,
+				"children": [
+					{
+						"title": "Themes",
+						"icon": "/assets/img/minimal/presentation.svg",
+						"route": "themes",
+						"component": "TutorThemes",
+						"is_left": 0
+					},
+					{						
+						"title": "Facultets list",
+						"icon": "/assets/img/minimal/033-content writing.svg",
+						"route": "facultets",
+						"component": "TutorFacultets",
+						"id": "tutor-facultet",
+						"is_left": 0
+					},
+					{
+						"title": "Courses",
+						"icon": "/assets/img/minimal/031-add-contact.svg",
+						"route": "all-courses",
+						"component": "TutorCourses",
+						"is_left": 0
+					},
+					{
+						"title": "Tests",
+						"icon": "/assets/img/minimal/030-done.svg",
+						"route": "all-tests",
+						"component": "TutorTests",
+						"is_left": 0
+					}
+				]
+			},
+			{
+				"title": "Фестивали",
+				"icon": "/assets/img/minimal/026-art.svg",
+				"route": "festivals",
+				"component": "MainAdminState",
+				"is_left": 0,
+				"children": [
+					{
+						"title": "Удаление Топос. Взлёт-посадка",
+						"icon": "fas fa-coffee" ,
+						"route": "wp-fest/57",
+						"component": "TutorWPFest",
+						"route_data" : 
+						{
+							"url": "http://deltopos.wpfest.ru",
+							"blog_id": "57"
+						},
+						"style_id": "4",
+						"is_left": 0
+					},
+					{
+						"title": "obladi-oblada",
+						"icon": "fas fa-bookmark",
+						"route": "wp-fest/59",
+						"component": "TutorWPFest",
+						"route_data" : 
+						{
+							"url": "http://fff1.wpfest.ru",
+							"blog_id": "59"
+						},
+						"style_id": "4",
+						"is_left": 0
+					}
+				]
+			}
+		],
+		"personal_menu": [
+			{
+				"title": "Favorites",
+				"target_id": "favorites",
+				"is_target": "2"
+			},
+			{
+				"title": "My tests",
+				"target_id": "tests-tesult",
+				"is_target": "2",
+				"data_type": "--"
+			},
+			{
+				"title": "Личные данные",
+				"target_id": "profile",
+				"is_target": "2"
+			}
+		],
+		"menu": [
+			{
+				"title": "Education",
+				"id": "admin",
+				"icon": "/assets/img/minimal/049-abc.svg",
+				"route": "admin",
+				"component": "MainAdminState",
+				"is_left": 1,
+				"capability": [
+					"administrator"
+				],
+				"is_hidden": 1,
+				"islogged": 1,
+				"children": [
+					{
+						"title": "Facultets",
+						"icon": "/assets/img/minimal/033-content writing.svg",
+						"route": "facultets",
+						"data_type": "Bio_Facultet",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Courses",
+						"icon": "/assets/img/minimal/031-add-contact.svg",
+						"route": "categories",
+						"data_type": "Bio_Course",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Articles",
+						"icon": "/assets/img/minimal/060-writing.svg",
+						"route": "articles",
+						"data_type": "Bio_Article",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Events",
+						"icon": "fas fa-calendar-alt",
+						"route": "events",
+						"data_type": "Bio_Event",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Tests",
+						"icon": "/assets/img/minimal/030-done.svg",
+						"route": "tests",
+						"data_type": "Bio_Test",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1,
+						"children":[
+							{
+								"title": "Questions",
+								"icon": "fas fa-question",
+								"route": "questions",
+								"data_type": "Bio_TestQuestion",
+								"is_left": 1,
+								"capability": [
+									"administrator"
+								]
+							},
+							{
+								"title": "Test Categories",
+								"icon": "fas fa-vials",
+								"route": "test-categories",
+								"data_type": "Bio_Test_Category",
+								"is_left": 1,
+								"capability": [
+									"administrator"
+								],
+								"islogged": 1
+							}
+						]
+					},
+					{
+						"title": "Themes",
+						"icon": "/assets/img/minimal/presentation.svg",
+						"route": "themes",
+						"data_type": "Bio_Biology_Theme",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Classes",
+						"icon": "/assets/img/minimal/007-seminar.svg",
+						"route": "classes",
+						"data_type": "Bio_Class",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Olimpiad Types",
+						"icon": "/assets/img/minimal/010-idea.svg",
+						"route": "olimpiad-types",
+						"data_type": "Bio_Olimpiad_Type",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Comments",
+						"icon": "/assets/img/minimal/033-bubble-chat.svg",
+						"route": "comments",
+						"data_type": "Comment",
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1,
+						"is_left": 1
+					}
+				]
+			},
+			{
+				"title": "Translations",
+				"icon": "/assets/img/minimal/047-testing.svg",
+				"route": "admin-translations",
+				"component": "MainAdminState",
+				"capability": [
+					"administrator"
+				],
+				"is_hidden": 1,
+				"is_left": 1,
+				"islogged": 1,
+				"children": [
+					{
+						"title": "Translations",
+						"icon": "/assets/img/minimal/047-testing.svg",
+						"route": "translations",
+						"data_type": "PE_Translation",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Rooms",
+						"icon": "/assets/img/minimal/007-seminar.svg",
+						"route": "rooms",
+						"data_type": "PE_Room",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					}
+				]
+			},
+			{
+				"title": "Users",
+				"icon": "/assets/img/minimal/043-management.svg",
+				"route": "admin-users",
+				"data_type": "User",
+				"capability": [
+					"administrator"
+				],
+				"islogged": 1,
+				"is_left": 1
+			},
+			{
+				"title": "Contact Form Messages",
+				"icon": "/assets/img/minimal/084-email.svg",
+				"route": "contact-forms",
+				"data_type": "PE_ContactFormMessage",
+				"is_left": 1,
+				"capability": [
+					"administrator"
+				],
+				"islogged": 1
+			}, 
+			{
+				"title": "Services",
+				"icon" : "fas fa-code-branch",
+				"route" : "services",
+				"component": "MainAdminState",
+				"description": "Удалённые сервисы, которые либо созданы под стандарт Protopia Ecosystem либо имеют модули синхронизации с PE-приложением. Вы можете подключиться к удалённому сервису через свою учётную запись и получать доступ к своему контенту и предоставлять своим пользователям возможности сервиса прямо у себя в приложении.",
+				"is_left": 1,
+				"capability": [
+					"none"
+				],
+				"is_hidden": 1,
+				"islogged": 1,
+				"children": [
+					{
+						"title": "WP-Fest",
+						"icon": "fas fa-theater-masks",
+						"route": "admin-fests",
+						"component": "MainAdminState",
+						"description": "Сервис по созданию и сопровождению онлайн и оффлайн образовательных мероприятий (фестивали, конкурсы, олимпиады). Входит в семейство в ProtopiaEcosystem",
+						"is_left": 1,
+						"capability": [
+							"none"
+						],
+						"is_hidden": 1,
+						"islogged": 1,
+						"children": [
+							{
+								"title": "WP-Fest accounts",
+								"icon": "fas fa-theater-masks",
+								"route": "awpfest-account",
+								"component": "TutorRemoteAccountAdmin",
+								"description": "Можно подключаться к различным инсталяциям WPFest с одной или несколькими учётными записями владельцев Фестивалей. В разделе происходит управление подключениями к удалённым серверам. В лицевой части Вашего приложения Ваши пользователи могут пользоваться фестивалями находясь в Вашем пространстве.",
+								"capability": [
+									"none"
+								],
+								"islogged": 1,
+								"is_left": 1
+							},
+							{
+								"title": "Festivals",
+								"icon": "fas fa-theater-masks",
+								"route": "awpfest-sites",
+								"component": "TutorRemoteAdmin",
+								"description": "Управление всеми Фестивалями WPFest со всех подключённых учётных записей.",
+								"capability": [
+									"none"
+								],
+								"islogged": 1,
+								"is_left": 1
+							}
+						]
+					}
+				]
+			},
+			{
+				"title": "Votes",
+				"icon": "fas fa-hand-paper",
+				"route": "admin-votes",
+				"component": "MainAdminState",
+				"description": "Horizontal managmnent services",
+				"is_left": 1,
+				"capability": [
+					"none"
+				],
+				"is_hidden": 1,
+				"islogged": 1
+			},
+			{
+				"title": "Settings",
+				"icon": "/assets/img/minimal/106-settings.svg",
+				"route": "admin-settings",
+				"component": "MainAdminState",
+				"description": "",
+				"is_left": 1,
+				"capability": [
+					"administrator"
+				],
+				"is_hidden": 1,
+				"islogged": 1,
+				"children": [
+					{
+						"title": "Options",
+						"icon": "fas fa-tools",
+						"route": "options",
+						"single_data_type": "Options",
+						"data_type": "Options",
+						"description": "Main settings of portal",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Menu",
+						"icon": "/assets/img/minimal/165-menu.svg",
+						"route": "admin-menu",
+						"component": "AdminMenuState",
+						"description": "Создание и редактирование меню",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					},
+					{
+						"title": "Widgets",
+						"route": "admin-widgets",
+						"icon": "/assets/img/minimal/061-puzzle.svg",
+						"component": "AdminWidgetState",
+						"description": "Установка виджетов в гнёзда и настройка",
+						"is_left": 1,
+						"capability": [
+							"administrator"
+						],
+						"islogged": 1
+					}
+				]
+			}
+		],
+		"footer": [
+			{
+				"title": "Условия обслуживания",
+				"icon": "",
+				"route": "usl",
+				"html": " ",
+				"is_left": 0
+			},
+			{
+				"title": "Тарифы",
+				"icon": "",
+				"route": "tarif",
+				"component": "SchoolTarifState",
+				"is_left": 0
+			},
+			{
+				"title": "Связаться",
+				"icon": "",
+				"route": "contact",
+				"component": "SchoolContactForm",
+				"is_left": 0
+			},
+			{
+				"title": "Договор публичной оферты с Клиентом",
+				"icon": "",
+				"route": "oferta",
+				"html_source": "/help/oferta.html",
+				"is_left": 0
+			},
+			{
+				"title": "Политика конфиденциальности",
+				"icon": "",
+				"route": "politic",
+				"html_source": "/help/politic.html",
+				"is_left": 0
+			},
+			{
+				"title": "Пользовательское соглашение",
+				"icon": "",
+				"route": "udec",
+				"html_source": "/help/udec.html",
+				"is_left": 0
+			}
+		]
+	}
+}

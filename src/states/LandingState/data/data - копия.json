@@ -1,0 +1,1859 @@
+{
+	"maxSectionID": 115,
+	"maxFloatID": 8,
+	"sections___": [
+		{
+			"id": 3,
+			"title": {
+				"text": "Бессмысленная организация",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {
+					"backgroundColor": "#111"
+				},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "характернейшая картина",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {
+					"backgroundColor": "#444",
+					"color": "#EEE",
+					"paddingBottom": 4
+				}
+			},
+			"menu": {
+				"label": "",
+				"id": "3",
+				"is_enabled": 0
+			},
+			"composition": {
+				"columns": 1,
+				"type": 1,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": ""
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"backgroundColor": "#91a298"
+			},
+			"type": "image",
+			"data": {
+				"src": "https://media.shakespeare.org.uk/images/SBT_2001_27_5_Maghradze_Willi.176f8968.fill-1200x600-c75.jpg",
+				"src_type": "div",
+				"height": 300,
+				"style": {
+					"margin": 0
+				}
+			},
+			"floats": [
+				{
+					"float_id": 4,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": {},
+						"xl": {},
+						"sm": {},
+						"mc": {
+							"x": {
+								"value": "50",
+								"ei": "%",
+								"dst": "L"
+							},
+							"y": {
+								"value": "-55",
+								"ei": "px",
+								"dst": "B"
+							},
+							"w": {
+								"value": "110",
+								"ei": "px",
+								"dst": ""
+							},
+							"h": {
+								"value": "110",
+								"ei": "px",
+								"dst": ""
+							}
+						}
+					},
+					"class_name": "khrena-se",
+					"style": {},
+					"type": "image",
+					"data": {
+						"src": "/assets/img/010-review-3.png",
+						"src_type": "div",
+						"style": {
+							"border": "10px solid #91a298",
+							"borderRadius": "100%",
+							"boxShadow": "0 10px 5px 1px rgba(0,0,0,0.6)",
+							"backgroundSize": "50%",
+							"backgroundPosition": "center",
+							"backgroundRepeat": "no-repeat",
+							"backgroundColor": "#EEE"
+						}
+					}
+				},
+				{
+					"float_id": 5,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": {},
+						"xl": {},
+						"sm": {},
+						"mc": {
+							"x": {
+								"value": "50",
+								"ei": "px",
+								"dst": "L"
+							},
+							"y": {
+								"value": "50",
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": "190",
+								"ei": "px",
+								"dst": ""
+							},
+							"h": {
+								"value": "190",
+								"ei": "px",
+								"dst": ""
+							}
+						}
+					},
+					"class_name": "",
+					"style": {},
+					"type": "image",
+					"data": {}
+				}
+			]
+		}
+	],
+	"sections": [
+		{
+			"id": 1,
+			"is_hidden": true,
+			"composition": {
+				"columns": 1,
+				"type": 0,
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": "",
+				"proportia": [
+					50,
+					50
+				]
+			},
+			"background": {
+				"image": "",
+				"color": "#FF000000",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"height": 400,
+				"backgroundColor": "#777"
+			},
+			"title": {
+				"text": "",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {},
+				"composition": {
+					"columns": 1,
+					"type": 0,
+					"is_blocked": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {}
+			},
+			"menu": {
+				"label": "О нас",
+				"id": "1",
+				"is_enabled": true
+			},
+			"type": "carousel",
+			"data": {
+				"items": 1,
+				"loop": 1,
+				"autoplay": 1,
+				"dots": 1,
+				"nav": 0,
+				"sections": [
+					{
+						"id": 13,
+						"title": {
+							"text": "Феодальная аристократия",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-right",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "Популяризатор науки",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-right",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "2",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 3,
+							"proportia": [
+								50,
+								50
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {
+							"height": 400,
+							"backgroundColor": "#220000",
+							"backgroundImage": "url(http://kb.genagl.ru/wp-content/plugins/proropia-landing/assets/images/student_bck_1.jpg)"
+						},
+						"type": "html",
+						"data": {
+							"text": "--"
+						},
+						"floats": []
+					},
+					{
+						"id": 14,
+						"title": {
+							"text": "Партия левых эсеров",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-white text-left",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "глубокий анализ, бред сумасшедшего",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-white text-left",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "23",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 1,
+							"proportia": [
+								50,
+								50
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {
+							"height": 400,
+							"backgroundColor": "#0b4b5d"
+						},
+						"type": "image",
+						"data": {
+							"src": "http://mcnewsmd1.keeng.net/netnews/archive/images/2019123111/tinngan_113848_470191217_0.jpg",
+							"src_type": "div",
+							"style": {
+								"margin": 0
+							}
+						},
+						"floats": []
+					},
+					{
+						"id": 15,
+						"title": {
+							"text": "У вас теперь нет имён",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-white text-right",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "у вас теперь номера",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "text-white text-right",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "4",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 0,
+							"proportia": [
+								50,
+								50
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {
+							"height": 400,
+							"backgroundColor": "#0b4b5d"
+						},
+						"type": "image",
+						"data": {
+							"src": "http://game4v.com/g4v-content/uploads/2018/05/pyke-05.jpg",
+							"src_type": "div",
+							"style": {
+								"margin": 0
+							}
+						},
+						"floats": []
+					}
+				]
+			},
+			"floats": []
+		},
+		{
+			"id": 2,
+			"composition": {
+				"columns": 4,
+				"type": 3,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "достоинства",
+				"id": "24",
+				"is_enabled": true
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"backgroundColor": "#91a298"
+			},
+			"title": {
+				"text": "Cтрана на районы поделена",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {
+					"paddingTop": 30,
+					"paddingRight": 0,
+					"paddingBottom": 0,
+					"paddingLeft": 0,
+					"color": "#77FF77"
+				},
+				"composition": {
+					"columns": 2,
+					"type": 2,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "Пора бы и о душе подумать",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {}
+			},
+			"type": "motivation",
+			"data": {
+				"motivation": [
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/003-blogger.svg",
+						"title": "Управление Знаниями",
+						"description": "Наши ИТ-решения позволят учитывать движение и формирование знаний у участников команды."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/007-blogger.svg",
+						"title": "Социальный граф",
+						"description": "Наши IT-решения помогают облегчить задачу взаимодействие большого числа людей, открыв людям новые возможности для взаимодействия между собой."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/008-coworking.svg",
+						"title": "Социо и гейм - дизайн",
+						"description": "Не имеет значения, какие роли и какое игровое взаимодействие необходимо: учитель и ученики, ведущий и участники, равноправные члены команды с различными обязательствами - в нашем ИТ-решении будут учтены особенности каждой из ролей."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/003-blogger.svg",
+						"title": "Каммершпиле",
+						"description": "Нырнём для начала в анналы истории и взглянем на такой интересный жанр, как каммершпиле."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/007-blogger.svg",
+						"title": "Фильм-ревю",
+						"description": "Как только кино научилось говорить и даже петь (произошло это в 1927-м году, когда на экраны всего мира вышел Певец джаза с Алом Джонсоном) в каждый фильм пытались вставить хоть одну песенку."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/008-coworking.svg",
+						"title": "Пеплум",
+						"description": "Пеплумы (от др.-греч. πέπλος, πέπλον — платье, одежда, лат. peplum) - это исторические драмы, как правило, повествующие о событиях, имевших место в древних цивилизациях - в Риме, Греции, Египте."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/007-blogger.svg",
+						"title": "Фильм плаща и шпаги",
+						"description": "Фильмы плаща и шпаги - это авантюрно-приключенческие истории, обыкновенно разворачивающиеся в Новом времени (XVI-XIX вв.) в Европе и её колониях (изредка - на Востоке)."
+					},
+					{
+						"thumbnail": "http://kb.genagl.ru/wp-content/uploads/2019/12/008-coworking.svg",
+						"title": "Вестерн",
+						"description": "Остро жанровое кино - то есть такое, действие которого может происходить только в определённое время, в определённом месте и с определёнными героями - обречено на короткую жизнь. "
+					}
+				],
+				"style": {
+					"minHeight": 350,
+					"margin": 0
+				}
+			},
+			"floats": []
+		},
+		{
+			"id": 113,
+			"title": {
+				"text4": "По прекращению огня",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {
+					"backgroundColor": "#111"
+				},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center ",
+				"style": {}
+			},
+			"menu": {
+				"label": "",
+				"id": "5",
+				"is_enabled": 0
+			},
+			"composition": {
+				"columns": 3,
+				"type": 2,
+				"proportia": [
+					25,
+					75
+				],
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": ""
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"height": 300
+			},
+			"type": "columns",
+			"data": {
+				"style": {
+					"height": 300
+				},
+				"proportia": [
+					20,
+					60,
+					20
+				],
+				"sections": [
+					{
+						"id": 114,
+						"title": {
+							"text": "",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "25",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 1,
+							"proportia": [
+								0,
+								100
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {},
+						"type": "image",
+						"data": {
+							"src": "https://live.staticflickr.com/65535/50166004773_64ffdb3b34_k.jpg",
+							"src_type": "div",
+							"style": {}
+						},
+						"floats": []
+					},
+					{
+						"id": 115,
+						"title": {
+							"text": "",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "6",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 1,
+							"proportia": [
+								0,
+								100
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {
+							"padding": 0
+						},
+						"type": "image",
+						"data": {
+							"src": "https://ic.pics.livejournal.com/victorvideo/44618713/587507/587507_original.jpg",
+							"src_type": "div",
+							"style": {}
+						},
+						"floats": []
+					},
+					{
+						"id": 116,
+						"title": {
+							"text": "",
+							"text_src": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {},
+							"composition": {
+								"columns": 1,
+								"type": 0,
+								"proportia": [
+									50,
+									50
+								],
+								"is_blocked": 0,
+								"text_before": "",
+								"text_after": ""
+							}
+						},
+						"descriptions": {
+							"text": "",
+							"lasy_load_type": "",
+							"lasy_load_delay": 0,
+							"class_name": "",
+							"style": {}
+						},
+						"menu": {
+							"label": "",
+							"id": "7",
+							"is_enabled": 0
+						},
+						"composition": {
+							"columns": 0,
+							"type": 1,
+							"proportia": [
+								0,
+								100
+							],
+							"is_blocked": 0,
+							"text_before": "",
+							"text_after": ""
+						},
+						"background": {
+							"image": "",
+							"color": "",
+							"is_parallax": 0,
+							"parallax_speed": 0
+						},
+						"class_name": "",
+						"style": {},
+						"type": "image",
+						"data": {
+							"src": "https://retina.news.mail.ru/prev780x440/pic/b9/d0/image42764410_6c8120dd3ca3446ad65c30fc4849a1f7.jpg",
+							"src_type": "div",
+							"style": {}
+						},
+						"floats": []
+					}
+				]
+			},
+			"floats": [
+				{
+					"float_id": 4,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": {},
+						"xl": {},
+						"sm": {},
+						"mc": {
+							"x": {
+								"value": 50,
+								"ei": "%",
+								"dst": "L"
+							},
+							"y": {
+								"value": "-35",
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": "100",
+								"ei": "px",
+								"dst": ""
+							},
+							"h": {
+								"value": "100",
+								"ei": "px",
+								"dst": ""
+							}
+						}
+					},
+					"class_name": "",
+					"style": {
+						"backgroundColor": "#e6e6e6",
+						"borderRadius": "100%",
+						"border": "10px solid #91a298",
+						"boxShadow": "0 10px 5px 1px rgba(0,0,0,0.6)",
+						"marginLeft": -50
+					},
+					"type": "image",
+					"data": {
+						"src": "/assets/img/010-review-3.png",
+						"src_type": "div",
+						"style": {
+							"backgroundSize": "70%",
+							"backgroundPosition": "center",
+							"backgroundRepeat": "no-repeat"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": {
+				"text": "Бессмысленная организация",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {
+					"backgroundColor": "#111"
+				},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "характернейшая картина",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {
+					"backgroundColor": "#444",
+					"color": "#EEE",
+					"paddingBottom": 4
+				}
+			},
+			"menu": {
+				"label": "",
+				"id": "8",
+				"is_enabled": 0
+			},
+			"composition": {
+				"columns": 1,
+				"type": 1,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": ""
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {},
+			"type": "image",
+			"data": {
+				"src": "https://media.shakespeare.org.uk/images/SBT_2001_27_5_Maghradze_Willi.176f8968.fill-1200x600-c75.jpg",
+				"src_type": "div",
+				"height": 300,
+				"style": {
+					"margin": 0
+				}
+			},
+			"floats": []
+		},
+		{
+			"id": 4,
+			"title": {
+				"text": "В широком смысле слова",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "mt-auto text-right",
+				"style": {
+					"backgroundColor": "#042029"
+				},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "сама самоубилась",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-right",
+				"style": {
+					"backgroundColor": "#111"
+				}
+			},
+			"menu": {
+				"label": "",
+				"id": "10",
+				"is_enabled": 0
+			},
+			"composition": {
+				"columns": 1,
+				"type": 0,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": ""
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"backgroundColor": "#022a38",
+				"color": "#a4dcfb"
+			},
+			"type": "image",
+			"data": {
+				"src": "https://giknutye.ru/wp-content/uploads/2016/08/star-lord.jpg",
+				"height": 300,
+				"src_type": "div",
+				"style": {
+					"margin": 0
+				}
+			},
+			"floats_33": [],
+			"floats": [
+				{
+					"float_id": 1,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": [],
+						"xl": [],
+						"sm": [],
+						"mc": {
+							"x": {
+								"value": 50,
+								"ei": "%",
+								"dst": "L"
+							},
+							"y": {
+								"value": -50,
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": 100,
+								"ei": "px"
+							},
+							"h": {
+								"value": 100,
+								"ei": "px"
+							}
+						}
+					},
+					"class_name": "",
+					"style": {
+						"backgroundColor": "#91a298",
+						"borderRadius": "100%",
+						"border": "10px solid #e6e6e6",
+						"marginLeft": -50
+					},
+					"type": "image",
+					"data": {
+						"src": "/assets/img/100-zeppelin.svg",
+						"src_type": "div",
+						"style": {
+							"backgroundSize": "70%",
+							"backgroundPosition": "center",
+							"backgroundRepeat": "no-repeat"
+						}
+					}
+				},
+				{
+					"float_id": 2,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": [],
+						"xl": [
+							50,
+							0,
+							"100%",
+							110
+						],
+						"sm": [],
+						"mc": {
+							"x": {
+								"value": 0,
+								"ei": "px",
+								"dst": "L"
+							},
+							"y": {
+								"value": 40,
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": "50",
+								"ei": "%"
+							},
+							"h": {
+								"value": 110,
+								"ei": "px"
+							}
+						}
+					},
+					"class_name": "text-right px-4",
+					"style": {},
+					"type": "html",
+					"data": {
+						"text": "<p class='lead'>Элементы <b>консолидации</b>. </p><p>Президент Украины <span class='text-warning'>Владимир Зеленский</span> объявил, что в связи с ростом случаев захватов заложников и возросшим потоком условий лично к главе государства, он заводит отдельную электронную систему приёма требований от террористов.</p>",
+						"style": {
+							"overflowY": "auto"
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": 5,
+			"composition": {
+				"columns": 3,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "11",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "p-5",
+			"style": {},
+			"title": {
+				"text": "С растлённого запада",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-left",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "на общинные наши порядки",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-left",
+				"style": {}
+			},
+			"type": "team",
+			"data": {
+				"team": [
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2019/12/photo.png",
+						"name": "Фёдор Моросеев",
+						"description": "<p>Архитектор IT-систем,</p><p>Project-Manager,</p><p>Front-end разработчик</p>"
+					},
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2019/12/photo-1.png",
+						"name": "Дмитрий Лейкин",
+						"description": "<p>Программист,</p><p>back-end разработчик</p>"
+					},
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2019/12/frog-208591_1920.jpg",
+						"name": "Геннадий Глазунов",
+						"description": "<p>Программист,</p><p>художник,</p><p>дизайнер,</p><p>Project Manager</p>"
+					},
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2019/12/vphoto.jpg",
+						"name": "Виталий Виноградов",
+						"description": "<p>UI-разработчик</p>"
+					},
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2019/12/1.jpg",
+						"name": "Марина Погодина",
+						"description": "<p>Дизайнер, верстальщик</p>"
+					}
+				],
+				"style": {
+					"minHeight": 350,
+					"margin": 0
+				}
+			},
+			"floats": [
+				{
+					"float_id": 7,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": {},
+						"xl": {},
+						"sm": {},
+						"mc": {
+							"x": {
+								"value": "50",
+								"ei": "%",
+								"dst": "L"
+							},
+							"y": {
+								"value": "-72",
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": "100",
+								"ei": "px"
+							},
+							"h": {
+								"value": "100",
+								"ei": "px"
+							}
+						}
+					},
+					"class_name": "",
+					"style": {
+						"backgroundColor": "#91a298",
+						"borderRadius": "100%",
+						"border": "10px solid #e6e6e6",
+						"marginLeft": -50
+					},
+					"type": "image",
+					"data": {
+						"src_type": "div",
+						"style": {
+							"backgroundSize": "70%",
+							"backgroundPosition": "center",
+							"backgroundRepeat": "no-repeat"
+						},
+						"src": "data:image/svg+xml;base64,PHN2ZyBpZD0iSG90ZWwiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgMzAwIDMwMCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCgkNCgkJPHBhdGggZD0ibTI0My43NSAxNTBoLTUwdi04MS4yNWMwLTMuNDU1LTIuNzk4LTYuMjUtNi4yNS02LjI1aC04LjYzNy03LjcyNS00Ljc3NS03LjcyNS00Ljc3NS03LjcyNS00Ljc3NS03LjcyNS00Ljc3NS03LjcyNS04LjYzOGMtMy40NTIgMC02LjI1IDIuNzk1LTYuMjUgNi4yNXYxMDYuMjVoLTUwYy0zLjQ1MiAwLTYuMjUgMi43OTUtNi4yNSA2LjI1djYyLjVjMCAzLjQ1NSAyLjc5OCA2LjI1IDYuMjUgNi4yNWgxOC43NSAxOC43NSAxOC43NSAyNSAyNSAyNSAxOC43NSAxOC43NSAxOC43NWMzLjQ1MiAwIDYuMjUtMi43OTUgNi4yNS02LjI1di04Ny41YzAtMy40NTUtMi43OTgtNi4yNS02LjI1LTYuMjV6bS0xNjguNzUgNjIuNXYyNWgtMTIuNXYtNTBoNDMuNzV2NTBoLTEyLjV2LTI1em0xMDYuMjUgMjVoLTE4Ljc1di0yNWgtMjV2MjVoLTE4Ljc1di0xNjIuNWg2Mi41em01Ni4yNSAwaC0xMi41di0yNWgtMTguNzV2MjVoLTEyLjV2LTc1aDQzLjc1eiIvPg0KCQk8cGF0aCBkPSJtMTI4LjEyNSAxMTguNzVoMTguNzV2MjVoLTE4Ljc1eiIvPg0KCQk8cGF0aCBkPSJtMTUzLjEyNSAxMTguNzVoMTguNzV2MjVoLTE4Ljc1eiIvPg0KCQk8cGF0aCBkPSJtMTI4LjEyNSA4Ny41aDE4Ljc1djI1aC0xOC43NXoiLz4NCgkJPHBhdGggZD0ibTE1My4xMjUgODcuNWgxOC43NXYyNWgtMTguNzV6Ii8+DQoJCTxwYXRoIGQ9Im0xMjguMTI1IDE1MGgxOC43NXYyNWgtMTguNzV6Ii8+DQoJCTxwYXRoIGQ9Im0xNTMuMTI1IDE1MGgxOC43NXYyNWgtMTguNzV6Ii8+DQoJCTxwYXRoIGQ9Im0xMjguMTI1IDE4MS4yNWgxOC43NXYyNWgtMTguNzV6Ii8+DQoJCTxwYXRoIGQ9Im0xNTMuMTI1IDE4MS4yNWgxOC43NXYyNWgtMTguNzV6Ii8+DQoJCTxwYXRoIGQ9Im0xMjguODYzIDYyLjUtLjczOC00LjUyMyAzLjEyNS0zLjIwMi00LjMxOS0uNjYtMS45MzEtNC4xMTUtMS45MzEgNC4xMTUtNC4zMTkuNjYgMy4xMjUgMy4yMDItLjczOCA0LjUyMyAzLjg2My0yLjEzNXoiLz4NCgkJPHBhdGggZD0ibTEzMy42MzcgNjIuNSAzLjg2My0yLjEzNSAzLjg2MyAyLjEzNS0uNzM4LTQuNTIzIDMuMTI1LTMuMjAyLTQuMzE5LS42Ni0xLjkzMS00LjExNS0xLjkzMSA0LjExNS00LjMxOS42NiAzLjEyNSAzLjIwMnoiLz4NCgkJPHBhdGggZD0ibTE0Ni4xMzcgNjIuNSAzLjg2My0yLjEzNSAzLjg2MyAyLjEzNS0uNzM4LTQuNTIzIDMuMTI1LTMuMjAyLTQuMzE5LS42Ni0xLjkzMS00LjExNS0xLjkzMSA0LjExNS00LjMxOS42NiAzLjEyNSAzLjIwMnoiLz4NCgkJPHBhdGggZD0ibTE1OC42MzcgNjIuNSAzLjg2My0yLjEzNSAzLjg2MyAyLjEzNS0uNzM4LTQuNTIzIDMuMTI1LTMuMjAyLTQuMzE5LS42Ni0xLjkzMS00LjExNS0xLjkzMSA0LjExNS00LjMxOS42NiAzLjEyNSAzLjIwMnoiLz4NCgkJPHBhdGggZD0ibTE3MS4xMzcgNjIuNSAzLjg2My0yLjEzNSAzLjg2MyAyLjEzNS0uNzM4LTQuNTIzIDMuMTI1LTMuMjAyLTQuMzE5LS42Ni0xLjkzMS00LjExNS0xLjkzMSA0LjExNS00LjMxOS42NiAzLjEyNSAzLjIwMnoiLz4NCgkNCjwvc3ZnPg=="
+					}
+				}
+			]
+		},
+		{
+			"id": 6,
+			"composition": {
+				"columns": 3,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "12",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"backgroundColor": "#087094",
+				"color": "#FFF"
+			},
+			"title": {
+				"text": "",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {}
+			},
+			"type": "testanomials",
+			"data": {
+				"testanomials": [
+					{
+						"avatar": "http://kb.genagl.ru/wp-content/uploads/2020/01/julien-lasbleiz-shakespeare-final1-sign.jpg",
+						"text": "Я параллельно трахала Салмана и Ерлана. Ерлан меня бросил за то что я ему изменила. А Салман меня бросил, за то что я ему изменила с Ерланом. Всё ясно, теперь мне не перепадет секс. Дружба это магия.",
+						"name": "tandau",
+						"description": "цветущий оазис Туркестана"
+					},
+					{
+						"avatar": "https://l-userpic.livejournal.com/129331680/31446988",
+						"text": "Советские варвары бесцеремонно вторгались в кишлаки и аулы, оставляя за собой школы, библиотеки, больницы, заводы, НИИ... Ужасные преступления перед традиционным обществом!",
+						"name": "Лукашенко",
+						"description": "Ученые из Медицинской школы Брайтона и Сассекса"
+					},
+					{
+						"avatar": "https://l-userpic.livejournal.com/129331776/44262825",
+						"text": "НАСА заключило договор с компанией NanoAvionics на разработку полотнища будущего солнечного паруса. Он создается в рамках проекта Advanced Composite Solar Sail System (ACS3), цель которого – протестировать новую экспериментальную технологию. Если ее признают успешной, в НАСА начнут постройку парусной системы для межпланетных путешествий.",
+						"name": "Белла Торн ",
+						"description": "22-летняя американская актриса, певица и модель"
+					},
+					{
+						"avatar": "https://l-userpic.livejournal.com/128097693/67301290",
+						"text": "Во время распространения самых разных вирусов нелишним будет обратиться к природным антибиотикам, которые позволяют ослабить симптомы болезни и не нанести организму вред.",
+						"name": "Офер Миретцки",
+						"description": "управляющий компании собственника торгового центра"
+					}
+				]
+			},
+			"floats": [
+				{
+					"float_id": 9,
+					"title": {
+						"text": ""
+					},
+					"composition": {
+						"columns": 1,
+						"type": 0,
+						"proportia": [
+							50,
+							50
+						],
+						"is_blocked": 0,
+						"text_before": "",
+						"text_after": ""
+					},
+					"position": {
+						"lg": {},
+						"xl": {},
+						"sm": {},
+						"mc": {
+							"x": {
+								"value": "50",
+								"ei": "%",
+								"dst": "L"
+							},
+							"y": {
+								"value": "-60",
+								"ei": "px",
+								"dst": "T"
+							},
+							"w": {
+								"value": 100,
+								"ei": "px"
+							},
+							"h": {
+								"value": 100,
+								"ei": "px"
+							}
+						}
+					},
+					"class_name": "",
+					"style": {
+						"backgroundColor": "#FFF",
+						"borderRadius": "100%",
+						"border": "10px solid #087094",
+						"marginLeft": -50,
+						"zIndex":6
+					},
+					"type": "image",
+					"data": {
+						"style": {
+							"backgroundSize": "60%",
+							"backgroundPosition": "center",
+							"backgroundRepeat": "no-repeat"
+						},
+						"src": "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSItNDIgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cmVjdCB3aWR0aD0iNTIycHQiIGhlaWdodD0iNTIycHQiIHg9Ii01IiB5PSItNSIgZmlsbD0iI0ZGRkZGRiIgLz4NCjxwYXRoIGQ9Im0yNzIuODE2NDA2IDk1LjQzMzU5NGMwLTMuNjk5MjE5LS4zNTU0NjgtNy4zMTI1LTEuMDAzOTA2LTEwLjgyMDMxM2wyNy43MzA0NjktMTYuMDExNzE5LTE5Ljc0MjE4OC0zNC4xOTUzMTItMjcuNzM4MjgxIDE2LjAxNTYyNWMtNS40NzI2NTYtNC42ODM1OTQtMTEuODA0Njg4LTguMzg2NzE5LTE4LjczNDM3NS0xMC44MzU5Mzd2LTMyLjAxMTcxOWgtMzkuNDg4MjgxdjMyLjAxMTcxOWMtNi45MjU3ODIgMi40NDkyMTgtMTMuMjU3ODEzIDYuMTUyMzQzLTE4LjczMDQ2OSAxMC44MzU5MzdsLTI3Ljc0MjE4Ny0xNi4wMTU2MjUtMTkuNzQyMTg4IDM0LjE5NTMxMiAyNy43MzQzNzUgMTYuMDExNzE5Yy0uNjQ4NDM3IDMuNTA3ODEzLTEuMDAzOTA2IDcuMTIxMDk0LTEuMDAzOTA2IDEwLjgyMDMxMyAwIDMuNjk1MzEyLjM1NTQ2OSA3LjMwODU5NCAxLjAwMzkwNiAxMC44MTY0MDZsLTI3LjczNDM3NSAxNi4wMTE3MTkgMTkuNzQyMTg4IDM0LjE5NTMxMiAyNy43NDIxODctMTYuMDE1NjI1YzUuNDcyNjU2IDQuNjgzNTk0IDExLjgwMDc4MSA4LjM4NjcxOSAxOC43MzA0NjkgMTAuODM1OTM4djMyLjAxMTcxOGgzOS40ODgyODF2LTMyLjAxMTcxOGM2LjkyOTY4Ny0yLjQ0OTIxOSAxMy4yNjE3MTktNi4xNTIzNDQgMTguNzM0Mzc1LTEwLjgzNTkzOGwyNy43MzgyODEgMTYuMDE1NjI1IDE5Ljc0MjE4OC0zNC4xOTUzMTItMjcuNzMwNDY5LTE2LjAxMTcxOWMuNjQ4NDM4LTMuNTA3ODEyIDEuMDAzOTA2LTcuMTIxMDk0IDEuMDAzOTA2LTEwLjgxNjQwNnptLTU5LjIzMDQ2OCAxOS43NDIxODdjLTEwLjkwNjI1IDAtMTkuNzQyMTg4LTguODM5ODQzLTE5Ljc0MjE4OC0xOS43NDIxODcgMC0xMC45MDYyNSA4LjgzNTkzOC0xOS43NDYwOTQgMTkuNzQyMTg4LTE5Ljc0NjA5NCAxMC45MDIzNDMgMCAxOS43NDIxODcgOC44Mzk4NDQgMTkuNzQyMTg3IDE5Ljc0NjA5NCAwIDEwLjkwMjM0NC04LjgzOTg0NCAxOS43NDIxODctMTkuNzQyMTg3IDE5Ljc0MjE4N3ptMCAwIiBmaWxsPSIjYzlkMmUzIi8+PHBhdGggZD0ibTI3Mi44MTY0MDYgOTUuNDMzNTk0YzAtMy42OTkyMTktLjM1NTQ2OC03LjMxMjUtMS4wMDM5MDYtMTAuODIwMzEzbDI3LjczMDQ2OS0xNi4wMTE3MTktMTkuNzQyMTg4LTM0LjE5NTMxMi0xNS44MzIwMzEgOS4xNDA2MjVjLjk0NTMxMiA1LjMwNDY4NyAxLjQ0MTQwNiAxMC43Njk1MzEgMS40NDE0MDYgMTYuMzQ3NjU2IDAgNDQuNjk5MjE5LTMxLjc2OTUzMSA4MS45Njg3NS03My45NjA5MzcgOTAuNDc2NTYzLjc4OTA2Mi4zMTY0MDYgMS41ODU5MzcuNjIxMDk0IDIuMzk0NTMxLjkwNjI1djMyLjAxMTcxOGgzOS40ODQzNzV2LTMyLjAxMTcxOGM2LjkyOTY4Ny0yLjQ0OTIxOSAxMy4yNjE3MTktNi4xNDg0MzggMTguNzM0Mzc1LTEwLjgzMjAzMmwyNy43MzgyODEgMTYuMDE1NjI2IDE5Ljc0NjA5NC0zNC4xOTkyMTktMjcuNzM0Mzc1LTE2LjAwNzgxM2MuNjQ4NDM4LTMuNTExNzE4IDEuMDAzOTA2LTcuMTI1IDEuMDAzOTA2LTEwLjgyMDMxMnptMCAwIiBmaWxsPSIjYWRiYmQ1Ii8+PHBhdGggZD0ibTE1Mi45OTIxODggMzc5LjIwMzEyNS04Ni4yNTM5MDcgMjMuOTU3MDMxYy0zNC45NjQ4NDMgOS43MTQ4NDQtNTkuMTY0MDYyIDQxLjU1NDY4OC01OS4xNjQwNjIgNzcuODQzNzV2MjMuNDIxODc1aDQxMi4wMjM0Mzd2LTIzLjQyMTg3NWMwLTM2LjI4OTA2Mi0yNC4xOTkyMTgtNjguMTI4OTA2LTU5LjE2Nzk2OC03Ny44NDM3NWwtODYuMjUzOTA3LTIzLjk1NzAzMXptMCAwIiBmaWxsPSIjOGRiMGZmIi8+PHBhdGggZD0ibTM2MC40Mjk2ODggNDAzLjE2NDA2Mi0yNS44MTY0MDctNy4xNzE4NzRjMjkuMTk1MzEzIDEyLjY1NjI1IDQ4LjYyODkwNyA0MS41ODIwMzEgNDguNjI4OTA3IDc0LjA5NzY1NnYzNC4zMzU5MzdoMzYuMzU1NDY4di0yMy40MjE4NzVjMC0zNi4yODkwNjItMjQuMTk5MjE4LTY4LjEyODkwNi01OS4xNjc5NjgtNzcuODM5ODQ0em0wIDAiIGZpbGw9IiM2NjlhZjciLz48cGF0aCBkPSJtMjEzLjU4NTkzOCA0NDcuODc1YzM3LjExNzE4NyAwIDY3LjQyOTY4Ny0yOS42MDkzNzUgNjguNjEzMjgxLTY2LjQ0MTQwNmwtOC4wMjM0MzgtMi4yMzA0NjloLTEyMS4xODM1OTNsLTguMDE5NTMyIDIuMjMwNDY5YzEuMTc5Njg4IDM2LjgzMjAzMSAzMS40OTYwOTQgNjYuNDQxNDA2IDY4LjYxMzI4MiA2Ni40NDE0MDZ6bTAgMCIgZmlsbD0iIzY2OWFmNyIvPjxwYXRoIGQ9Im0yNDkuOTQxNDA2IDM0NC44NjcxODh2MzQuMzM1OTM3YzAgMjAuMDc4MTI1LTE2LjI3NzM0NCAzNi4zNTU0NjktMzYuMzU1NDY4IDM2LjM1NTQ2OS0yMC4wNzgxMjYgMC0zNi4zNTU0NjktMTYuMjc3MzQ0LTM2LjM1NTQ2OS0zNi4zNTU0Njl2LTM0LjMzNTkzN3ptMCAwIiBmaWxsPSIjZjliM2E3Ii8+PHBhdGggZD0ibTMwOC41MTE3MTkgMTgzLjI4OTA2MmgyNi4yNTc4MTJ2MzMuMzI0MjE5aC0yNi4yNTc4MTJ6bTAgMCIgZmlsbD0iI2ZmZDY2NCIvPjxwYXRoIGQ9Im05Mi40MDIzNDQgMTgzLjI4OTA2MmgyNi4yNTM5MDZ2MzMuMzI0MjE5aC0yNi4yNTM5MDZ6bTAgMCIgZmlsbD0iI2ZmZDY2NCIvPjxwYXRoIGQ9Im0xMDMuNTExNzE5IDI3MS4xNDg0MzhoMjAuMTk1MzEydi01NC41MzUxNTdoLTIwLjE5NTMxMmMtMTEuMTU2MjUgMC0yMC4xOTkyMTkgOS4wNDI5NjktMjAuMTk5MjE5IDIwLjE5OTIxOXYxNC4xMzY3MTljMCAxMS4xNTYyNSA5LjA0Mjk2OSAyMC4xOTkyMTkgMjAuMTk5MjE5IDIwLjE5OTIxOXptMCAwIiBmaWxsPSIjZmVjY2MxIi8+PHBhdGggZD0ibTMyMy42NjAxNTYgMjcxLjE0ODQzOGgtMjAuMTk1MzEydi01NC41MzUxNTdoMjAuMTk1MzEyYzExLjE1NjI1IDAgMjAuMTk1MzEzIDkuMDQyOTY5IDIwLjE5NTMxMyAyMC4xOTkyMTl2MTQuMTM2NzE5YzAgMTEuMTU2MjUtOS4wMzkwNjMgMjAuMTk5MjE5LTIwLjE5NTMxMyAyMC4xOTkyMTl6bTAgMCIgZmlsbD0iI2Y5YjNhNyIvPjxwYXRoIGQ9Im0yMTMuNTg1OTM4IDE4My4yODkwNjJoLTk0LjkyOTY4OHY3Mi43MTA5MzhjMCA1Mi40MjU3ODEgNDIuNSA5NC45MjU3ODEgOTQuOTI5Njg4IDk0LjkyNTc4MSA1Mi40MjU3ODEgMCA5NC45MjU3ODEtNDIuNSA5NC45MjU3ODEtOTQuOTI1Nzgxdi03Mi43MTA5Mzh6bTAgMCIgZmlsbD0iI2ZlY2NjMSIvPjxwYXRoIGQ9Im0yODAuMjM0Mzc1IDE4My4yODkwNjJ2NzIuNzEwOTM4YzAgNDcuNjIxMDk0LTM1LjA2NjQwNiA4Ny4wNTA3ODEtODAuNzg5MDYzIDkzLjg3ODkwNiA0LjYxMzI4Mi42ODc1IDkuMzM1OTM4IDEuMDQ2ODc1IDE0LjE0MDYyNiAxLjA0Njg3NSA1Mi40MjU3ODEgMCA5NC45MjU3ODEtNDIuNSA5NC45MjU3ODEtOTQuOTI1Nzgxdi03Mi43MTA5Mzh6bTAgMCIgZmlsbD0iI2Y5YjNhNyIvPjxwYXRoIGQ9Im0yNDAuOTAyMzQ0IDk1LjQzMzU5NGMwLTE1LjA2NjQwNi0xMi4yNTM5MDYtMjcuMzIwMzEzLTI3LjMxNjQwNi0yNy4zMjAzMTMtMTUuMDY2NDA3IDAtMjcuMzIwMzEzIDEyLjI1MzkwNy0yNy4zMjAzMTMgMjcuMzIwMzEzIDAgMTUuMDYyNSAxMi4yNTc4MTMgMjcuMzE2NDA2IDI3LjMyMDMxMyAyNy4zMTY0MDZzMjcuMzE2NDA2LTEyLjI1MzkwNiAyNy4zMTY0MDYtMjcuMzE2NDA2em0tMjcuMzE2NDA2IDEyLjE2Nzk2OGMtNi43MTA5MzggMC0xMi4xNzE4NzYtNS40NjA5MzctMTIuMTcxODc2LTEyLjE2Nzk2OCAwLTYuNzEwOTM4IDUuNDYwOTM4LTEyLjE3MTg3NSAxMi4xNzE4NzYtMTIuMTcxODc1IDYuNzEwOTM3IDAgMTIuMTY3OTY4IDUuNDYwOTM3IDEyLjE2Nzk2OCAxMi4xNzE4NzUgMCA2LjcwNzAzMS01LjQ1NzAzMSAxMi4xNjc5NjgtMTIuMTY3OTY4IDEyLjE2Nzk2OHptMCAwIi8+PHBhdGggZD0ibTM2Mi40NTcwMzEgMzk1Ljg3MTA5NC0xNi4yMTg3NS00LjUwNzgxM2MtNC4wMzUxNTYtMS4xMjEwOTMtOC4yMDMxMjUgMS4yNDIxODgtOS4zMjQyMTkgNS4yNzM0MzgtMS4xMTcxODcgNC4wMjczNDMgMS4yNDIxODggOC4yMDMxMjUgNS4yNjk1MzIgOS4zMjQyMTlsMTYuMjIyNjU2IDQuNTAzOTA2YzMxLjU2NjQwNiA4Ljc2MTcxOCA1My42MTcxODggMzcuNzY5NTMxIDUzLjYxNzE4OCA3MC41NDI5Njh2MTUuODQzNzVoLTY1LjY0MDYyNnYtMjkuNzkyOTY4YzAtNC4xNzk2ODgtMy4zOTA2MjQtNy41NzQyMTktNy41NzQyMTgtNy41NzQyMTlzLTcuNTc0MjE5IDMuMzk0NTMxLTcuNTc0MjE5IDcuNTc0MjE5djI5Ljc5Mjk2OGgtMjM1LjI5Njg3NXYtMjkuNzkyOTY4YzAtNC4xNzk2ODgtMy4zOTA2MjUtNy41NzQyMTktNy41NzQyMTktNy41NzQyMTktNC4xODM1OTMgMC03LjU3NDIxOSAzLjM5NDUzMS03LjU3NDIxOSA3LjU3NDIxOXYyOS43OTI5NjhoLTY1LjY0MDYyNHYtMTUuODQzNzVjMC0zMi43NzM0MzcgMjIuMDQ2ODc0LTYxLjc4MTI1IDUzLjYyMTA5My03MC41NDI5NjhsMTYuMjE0ODQ0LTQuNTAzOTA2YzQuMDMxMjUtMS4xMjEwOTQgNi4zOTA2MjUtNS4yOTY4NzYgNS4yNzM0MzctOS4zMjQyMTktMS4xMjEwOTMtNC4wMzEyNS01LjI5Njg3NC02LjM5NDUzMS05LjMyODEyNC01LjI3MzQzOGwtMTYuMjE0ODQ0IDQuNTA3ODEzYy0zOC4xMDE1NjMgMTAuNTcwMzEyLTY0LjcxNDg0NCA0NS41ODIwMzEtNjQuNzE0ODQ0IDg1LjEzNjcxOHYyMy40MTc5NjljMCA0LjE4MzU5NCAzLjM5MDYyNSA3LjU3NDIxOSA3LjU3NDIxOSA3LjU3NDIxOWg0MTIuMDIzNDM3YzQuMTgzNTk0IDAgNy41NzQyMTktMy4zOTA2MjUgNy41NzQyMTktNy41NzQyMTl2LTIzLjQxNzk2OWMwLTM5LjU1NDY4Ny0yNi42MTMyODEtNzQuNTY2NDA2LTY0LjcxNDg0NC04NS4xMzY3MTh6bTAgMCIvPjxwYXRoIGQ9Im04NC44MjgxMjUgMjE2LjI4MTI1Yy01LjU4MjAzMSA1LjA4NTkzOC05LjA4OTg0NCAxMi40MDYyNS05LjA4OTg0NCAyMC41MzEyNXYxNC4xMzY3MTljMCAxNS4zMTY0MDYgMTIuNDU3MDMxIDI3Ljc3MzQzNyAyNy43NzM0MzggMjcuNzczNDM3aDEwLjExMzI4MWM3LjAyMzQzOCAzMC45MDYyNSAyOC4wNTA3ODEgNTYuNTQ2ODc1IDU2LjAzMTI1IDY5Ljg3NXYyMy4wMzEyNWgtMTYuNjY0MDYyYy0uNjgzNTk0IDAtMS4zNzEwOTQuMDkzNzUtMi4wMzEyNS4yNzczNDRsLTM1Ljk2NDg0NCA5Ljk5MjE4OGMtNC4wMzEyNSAxLjExNzE4Ny02LjM5MDYyNSA1LjI5Mjk2OC01LjI3MzQzOCA5LjMyNDIxOC45Mjk2ODggMy4zNTE1NjMgMy45NzY1NjMgNS41NDY4NzUgNy4yOTY4NzUgNS41NDY4NzUuNjY3OTY5IDAgMS4zNTE1NjMtLjA4OTg0MyAyLjAyNzM0NC0uMjc3MzQzbDE5LjI2OTUzMS01LjM1MTU2M2MyLjU1MDc4MiAxNi4yMDMxMjUgMTAuMjM0Mzc1IDMxLjEzMjgxMyAyMi4yMDcwMzIgNDIuNzU3ODEzIDE0LjMxMjUgMTMuODk4NDM3IDMzLjE1NjI1IDIxLjU1MDc4MSA1My4wNjI1IDIxLjU1MDc4MSAxOS45MDIzNDMgMCAzOC43NDYwOTMtNy42NTIzNDQgNTMuMDU4NTkzLTIxLjU1MDc4MSAxMS45NzI2NTctMTEuNjI1IDE5LjY2MDE1Ny0yNi41NTA3ODIgMjIuMjA3MDMxLTQyLjc1NzgxM2wxOS4yNjk1MzIgNS4zNTE1NjNjLjY3NTc4MS4xOTE0MDYgMS4zNTkzNzUuMjgxMjUgMi4wMzEyNS4yODEyNSAzLjMxNjQwNiAwIDYuMzYzMjgxLTIuMTk5MjE5IDcuMjkyOTY4LTUuNTUwNzgyIDEuMTE3MTg4LTQuMDMxMjUtMS4yNDIxODctOC4yMDMxMjUtNS4yNjk1MzEtOS4zMjQyMThsLTM1Ljk2ODc1LTkuOTkyMTg4Yy0uNjYwMTU2LS4xNzk2ODgtMS4zNDM3NS0uMjczNDM4LTIuMDMxMjUtLjI3MzQzOGgtMTYuNjYwMTU2di0yMy4wMzEyNWMyNy45ODA0NjktMTMuMzI4MTI0IDQ5LjAwNzgxMy0zOC45Njg3NSA1Ni4wMjczNDQtNjkuODc4OTA2aDEwLjExNzE4N2MxNS4zMTI1IDAgMjcuNzY5NTMyLTEyLjQ1NzAzMSAyNy43Njk1MzItMjcuNzY5NTMxdi0xNC4xMzY3MTljMC04LjEyNS0zLjUwNzgxMy0xNS40NDkyMTgtOS4wODU5MzgtMjAuNTMxMjV2LTMyLjk5NjA5NGMwLTQuMTgzNTkzLTMuMzk0NTMxLTcuNTc0MjE4LTcuNTc0MjE5LTcuNTc0MjE4aC05My44NjcxODd2LTE5LjMxNjQwNmM0LjE2MDE1Ni0xLjg2MzI4MiA4LjEwOTM3NS00LjE0ODQzOCAxMS44MTI1LTYuODMyMDMybDIzLjMwMDc4MSAxMy40NTMxMjVjMS43MzgyODEgMS4wMDM5MDcgMy44MDg1OTQgMS4yNzczNDQgNS43NDYwOTQuNzUzOTA3IDEuOTQxNDA2LS41MTk1MzIgMy41OTM3NS0xLjc4OTA2MyA0LjU5NzY1Ni0zLjUyNzM0NGwxOS43NDYwOTQtMzQuMTk1MzEzYzEuMDAzOTA2LTEuNzQyMTg3IDEuMjc3MzQzLTMuODA4NTkzLjc1MzkwNi01Ljc1LS41MTk1MzEtMS45NDE0MDYtMS43ODkwNjMtMy41OTM3NS0zLjUyNzM0NC00LjU5NzY1NmwtMjMuMjk2ODc1LTEzLjQ1MzEyNWMuMjM0Mzc1LTIuMjgxMjUuMzU1NDY5LTQuNTU4NTk0LjM1NTQ2OS02LjgyMDMxMiAwLTIuMjU3ODEzLS4xMjEwOTQtNC41MzkwNjMtLjM1NTQ2OS02LjgyMDMxM2wyMy4yOTY4NzUtMTMuNDUzMTI1YzEuNzM4MjgxLTEuMDAzOTA2IDMuMDA3ODEzLTIuNjU2MjUgMy41MjczNDQtNC41OTc2NTYuNTIzNDM3LTEuOTQxNDA2LjI1LTQuMDA3ODEzLS43NTM5MDYtNS43NDYwOTRsLTE5Ljc0NjA5NC0zNC4xOTkyMTljLTEuMDAzOTA2LTEuNzM4MjgxLTIuNjU2MjUtMy4wMDc4MTItNC41OTc2NTYtMy41MjczNDMtMS45Mzc1LS41MjM0MzgtNC4wMDM5MDctLjI1LTUuNzQ2MDk0Ljc1MzkwNmwtMjMuMzAwNzgxIDEzLjQ1MzEyNWMtMy43MDMxMjUtMi42ODM1OTQtNy42NTIzNDQtNC45Njg3NS0xMS44MTI1LTYuODMyMDMxdi0yNi44ODY3MTljMC00LjE4MzU5NC0zLjM5MDYyNS03LjU3NDIxOS03LjU3NDIxOS03LjU3NDIxOWgtMzkuNDg0Mzc1Yy00LjE4MzU5NCAwLTcuNTc0MjE5IDMuMzkwNjI1LTcuNTc0MjE5IDcuNTc0MjE5djI2Ljg5MDYyNWMtNC4xNjAxNTYgMS44NjMyODEtOC4xMDkzNzUgNC4xNDg0MzctMTEuODEyNSA2LjgzMjAzMWwtMjMuMzAwNzgxLTEzLjQ1MzEyNWMtMS43MzgyODEtMS4wMDM5MDYtMy44MDg1OTQtMS4yNzM0MzgtNS43NDYwOTQtLjc1MzkwNi0xLjk0MTQwNi41MTk1MzEtMy41OTM3NSAxLjc4OTA2Mi00LjU5NzY1NiAzLjUyNzM0NGwtMTkuNzQ2MDk0IDM0LjE5OTIxOGMtMS4wMDM5MDYgMS43MzgyODItMS4yNzczNDQgMy44MDQ2ODgtLjc1NzgxMiA1Ljc0NjA5NC41MTk1MzEgMS45NDE0MDYgMS43ODkwNjIgMy41OTM3NSAzLjUzMTI1IDQuNTk3NjU2bDIzLjI5Njg3NSAxMy40NTMxMjVjLS4yMzgyODEgMi4yODEyNS0uMzU1NDY5IDQuNTYyNS0uMzU1NDY5IDYuODIwMzEzIDAgMi4yNTc4MTIuMTE3MTg4IDQuNTM5MDYyLjM1NTQ2OSA2LjgyMDMxMmwtMjMuMjk2ODc1IDEzLjQ1MzEyNWMtMS43NDIxODggMS4wMDM5MDctMy4wMTE3MTkgMi42NTYyNS0zLjUzMTI1IDQuNTk3NjU3LS41MTk1MzIgMS45NDE0MDYtLjI0NjA5NCA0LjAwNzgxMi43NTc4MTIgNS43NWwxOS43NDYwOTQgMzQuMTk1MzEyYzEuMDAzOTA2IDEuNzM4MjgxIDIuNjU2MjUgMy4wMDc4MTIgNC41OTc2NTYgMy41MjczNDQgMS45NDE0MDYuNTIzNDM3IDQuMDA3ODEzLjI1IDUuNzQ2MDk0LS43NTM5MDZsMjMuMzAwNzgxLTEzLjQ1MzEyNmMzLjcwMzEyNSAyLjY4MzU5NCA3LjY1MjM0NCA0Ljk2ODc1IDExLjgxMjUgNi44MzIwMzJ2MTkuMzE2NDA2aC0xNS43OTI5NjljLTQuMTgzNTkzIDAtNy41NzQyMTggMy4zOTA2MjUtNy41NzQyMTggNy41NzQyMTkgMCA0LjE4MzU5MyAzLjM5MDYyNSA3LjU3NDIxOSA3LjU3NDIxOCA3LjU3NDIxOWgxMzAuNDYwOTM4djY1LjEzMjgxMmMwIDQ4LjE2Nzk2OS0zOS4xODM1OTQgODcuMzUxNTYyLTg3LjM1MTU2MiA4Ny4zNTE1NjItNDguMTY3OTY5IDAtODcuMzU1NDY5LTM5LjE4MzU5My04Ny4zNTU0NjktODcuMzUxNTYydi02NS4xMzY3MTloOC45NjQ4NDNjNC4xODM1OTQgMCA3LjU3NDIxOS0zLjM5MDYyNSA3LjU3NDIxOS03LjU3NDIxOSAwLTQuMTgzNTkzLTMuMzkwNjI1LTcuNTc0MjE4LTcuNTc0MjE5LTcuNTc0MjE4aC00Mi43OTI5NjhjLTQuMTgzNTk0IDAtNy41NzQyMTkgMy4zOTA2MjUtNy41NzQyMTkgNy41NzQyMTh6bTExNi41ODU5MzctNDAuNTY2NDA2di0yNC40Mzc1YzAtMy4yMTA5MzgtMi4wMjM0MzctNi4wNzAzMTMtNS4wNDY4NzQtNy4xNDA2MjUtNS45ODQzNzYtMi4xMTMyODEtMTEuNDc2NTYzLTUuMjkyOTY5LTE2LjMzNTkzOC05LjQ0OTIxOS0yLjQzNzUtMi4wODU5MzgtNS45Mjk2ODgtMi40MDYyNS04LjcxMDkzOC0uODA0Njg4bC0yMS4xNzk2ODcgMTIuMjMwNDY5LTEyLjE2Nzk2OS0yMS4wNzgxMjUgMjEuMTcxODc1LTEyLjIyNjU2MmMyLjc3NzM0NC0xLjYwMTU2MyA0LjI0NjA5NC00Ljc4MTI1IDMuNjY0MDYzLTcuOTMzNTk0LS41ODU5MzgtMy4xNTYyNS0uODc4OTA2LTYuMzMyMDMxLS44Nzg5MDYtOS40NDUzMTIgMC0zLjEwOTM3Ni4yOTI5NjgtNi4yODUxNTcuODc4OTA2LTkuNDQ1MzEzLjU4MjAzMS0zLjE1MjM0NC0uODg2NzE5LTYuMzI4MTI1LTMuNjY0MDYzLTcuOTMzNTk0bC0yMS4xNzE4NzUtMTIuMjIyNjU2IDEyLjE2Nzk2OS0yMS4wNzgxMjUgMjEuMTc5Njg3IDEyLjIyNjU2MmMyLjc4MTI1IDEuNjA5Mzc2IDYuMjczNDM4IDEuMjg1MTU3IDguNzEwOTM4LS44MDA3ODEgNC44NTkzNzUtNC4xNTYyNSAxMC4zNTE1NjItNy4zMzU5MzcgMTYuMzM1OTM4LTkuNDQ5MjE5IDMuMDIzNDM3LTEuMDcwMzEyIDUuMDQ2ODc0LTMuOTMzNTkzIDUuMDQ2ODc0LTcuMTQwNjI0di0yNC40Mzc1aDI0LjMzOTg0NHYyNC40Mzc1YzAgMy4yMTA5MzcgMi4wMjM0MzggNi4wNzAzMTIgNS4wNTA3ODIgNy4xNDA2MjQgNS45ODA0NjggMi4xMTcxODggMTEuNDc2NTYyIDUuMjkyOTY5IDE2LjMzMjAzMSA5LjQ0OTIxOSAyLjQzNzUgMi4wODU5MzggNS45Mjk2ODcgMi40MTAxNTcgOC43MTA5MzcuODA0Njg4bDIxLjE3OTY4OC0xMi4yMzA0NjkgMTIuMTY3OTY4IDIxLjA3ODEyNS0yMS4xNzE4NzQgMTIuMjI2NTYzYy0yLjc3NzM0NCAxLjYwMTU2Mi00LjI0NjA5NCA0Ljc4MTI1LTMuNjYwMTU3IDcuOTMzNTkzLjU4MjAzMSAzLjE1MjM0NC44NzUgNi4zMjgxMjUuODc1IDkuNDQ1MzEzIDAgMy4xMTcxODctLjI5Mjk2OSA2LjI5Mjk2OC0uODc1IDkuNDQxNDA2LS41ODU5MzcgMy4xNTYyNS44ODI4MTMgNi4zMzIwMzEgMy42NjAxNTcgNy45Mzc1bDIxLjE3MTg3NCAxMi4yMjI2NTYtMTIuMTY3OTY4IDIxLjA3ODEyNS0yMS4xNzk2ODgtMTIuMjI2NTYyYy0yLjc4MTI1LTEuNjA1NDY5LTYuMjczNDM3LTEuMjg1MTU3LTguNzEwOTM3LjgwNDY4Ny00Ljg1NTQ2OSA0LjE1MjM0NC0xMC4zNTE1NjMgNy4zMzIwMzItMTYuMzMyMDMxIDkuNDQ5MjE5LTMuMDI3MzQ0IDEuMDcwMzEzLTUuMDUwNzgyIDMuOTI5Njg3LTUuMDUwNzgyIDcuMTQwNjI1djI0LjQzNzVoLTI0LjMzOTg0NHptMTM0Ljg2NzE4OCA3NS4yMzQzNzVjMCA2Ljk2MDkzNy01LjY2MDE1NiAxMi42MjUtMTIuNjIxMDk0IDEyLjYyNWgtNy44NTU0NjhjLjE4MzU5My0yLjUuMjgxMjUtNS4wMjczNDQuMjgxMjUtNy41NzQyMTl2LTMxLjgxMjVoNy41NzQyMThjNi45NjA5MzggMCAxMi42MjEwOTQgNS42NjQwNjIgMTIuNjIxMDk0IDEyLjYyNXptLTkuMDg1OTM4LTQxLjY3NTc4MWMtMS4xNjAxNTYtLjE0ODQzOC0yLjMzOTg0My0uMjM0Mzc2LTMuNTM1MTU2LS4yMzQzNzZoLTcuNTc0MjE4di0xOC4xNzU3ODFoMTEuMTA1NDY4djE4LjQxMDE1N3ptLTUzLjAzNTE1NiAxNzcuNzg5MDYyYy0zLjgyODEyNSAzMC4yODkwNjItMjkuMzk0NTMxIDUzLjIzODI4MS02MC41NzQyMTggNTMuMjM4MjgxLTMxLjE4MzU5NCAwLTU2Ljc0NjA5NC0yMi45NDkyMTktNjAuNTc4MTI2LTUzLjIzODI4MWwxLjAxOTUzMi0uMjg1MTU2aDE2LjI5Njg3NWMzLjYwMTU2MiAyMC42MjUgMjEuNjIxMDkzIDM2LjM1NTQ2OCA0My4yNjE3MTkgMzYuMzU1NDY4IDIxLjYzNjcxOCAwIDM5LjY2MDE1Ni0xNS43MzA0NjggNDMuMjYxNzE4LTM2LjM1NTQ2OGgxNi4yOTI5Njl6bS0zMS43OTI5NjgtMzIuNjc5Njg4djI0LjgyMDMxM2MwIDE1Ljg3MTA5NC0xMi45MTQwNjMgMjguNzgxMjUtMjguNzgxMjUgMjguNzgxMjUtMTUuODcxMDk0IDAtMjguNzgxMjUtMTIuOTEwMTU2LTI4Ljc4MTI1LTI4Ljc4MTI1di0yNC44MjAzMTNjOS4xMzI4MTIgMi42NzU3ODIgMTguNzkyOTY4IDQuMTE3MTg4IDI4Ljc4MTI1IDQuMTE3MTg4IDkuOTg4MjgxIDAgMTkuNjQ0NTMxLTEuNDQxNDA2IDI4Ljc4MTI1LTQuMTE3MTg4em0tMTM4Ljg1NTQ2OS05MC44MDg1OTNjLTYuOTYwOTM4IDAtMTIuNjI1LTUuNjY0MDYzLTEyLjYyNS0xMi42MjV2LTE0LjEzNjcxOWMwLTYuOTYwOTM4IDUuNjY0MDYyLTEyLjYyMTA5NCAxMi42MjUtMTIuNjIxMDk0aDcuNTc0MjE5djMxLjgwODU5NGMwIDIuNTQ2ODc1LjA5Mzc1IDUuMDcwMzEyLjI3NzM0MyA3LjU3NDIxOXptNy41NzQyMTktNzIuNzEwOTM4djE4LjE3OTY4OGgtNy41NzQyMTljLTEuMTk5MjE5IDAtMi4zNzg5MDcuMDg1OTM3LTMuNTM1MTU3LjIzMDQ2OXYtMTguNDEwMTU3em0wIDAiLz48cGF0aCBkPSJtMzQ2LjUxNTYyNSAxNjEuOTg4MjgxYy45ODgyODEuNDMzNTk0IDIuMDIzNDM3LjY0MDYyNSAzLjAzOTA2My42NDA2MjUgMi45MTQwNjIgMCA1LjY5MTQwNi0xLjY5MTQwNiA2LjkzNzUtNC41MzEyNSA4LjcwMzEyNC0xOS44MjQyMTggMTMuMTE3MTg3LTQwLjkwNjI1IDEzLjExNzE4Ny02Mi42Njc5NjggMC0yMS43NTc4MTMtNC40MTQwNjMtNDIuODM5ODQ0LTEzLjExNzE4Ny02Mi42NjQwNjMtMS42Nzk2ODgtMy44MzIwMzEtNi4xNDg0MzgtNS41NzQyMTktOS45NzY1NjMtMy44OTA2MjUtMy44MzIwMzEgMS42Nzk2ODgtNS41NzQyMTkgNi4xNDg0MzgtMy44OTQ1MzEgOS45NzY1NjIgNy44NTU0NjggMTcuODk0NTMyIDExLjgzOTg0NCAzNi45Mjk2ODggMTEuODM5ODQ0IDU2LjU3ODEyNiAwIDE5LjY0ODQzNy0zLjk4NDM3NiAzOC42ODM1OTMtMTEuODM5ODQ0IDU2LjU3ODEyNC0xLjY3OTY4OCAzLjgzMjAzMi4wNjI1IDguMzAwNzgyIDMuODk0NTMxIDkuOTgwNDY5em0wIDAiLz48cGF0aCBkPSJtMzE4Ljc3MzQzOCAxNDkuODEyNWMuOTkyMTg3LjQzMzU5NCAyLjAyMzQzNy42NDA2MjUgMy4wMzkwNjIuNjQwNjI1IDIuOTE0MDYyIDAgNS42OTE0MDYtMS42OTE0MDYgNi45NDE0MDYtNC41MzEyNSA3LjAwMzkwNi0xNS45NjQ4NDQgMTAuNTU4NTk0LTMyLjk0OTIxOSAxMC41NTg1OTQtNTAuNDg4MjgxIDAtMTcuNTM5MDYzLTMuNTU0Njg4LTM0LjUyNzM0NC0xMC41NTg1OTQtNTAuNDkyMTg4LTEuNjgzNTk0LTMuODI4MTI1LTYuMTUyMzQ0LTUuNTcwMzEyLTkuOTgwNDY4LTMuODkwNjI1LTMuODMyMDMyIDEuNjc5Njg4LTUuNTc0MjE5IDYuMTQ4NDM4LTMuODkwNjI2IDkuOTgwNDY5IDYuMTU2MjUgMTQuMDMxMjUgOS4yODEyNSAyOC45Njg3NSA5LjI4MTI1IDQ0LjM5ODQzOCAwIDE1LjQyOTY4Ny0zLjEyNSAzMC4zNzEwOTMtOS4yODEyNSA0NC40MDIzNDMtMS42ODM1OTMgMy44MzIwMzEuMDU4NTk0IDguMzAwNzgxIDMuODkwNjI2IDkuOTgwNDY5em0wIDAiLz48cGF0aCBkPSJtNzcuNjE3MTg4IDE2Mi42Mjg5MDZjMS4wMTU2MjQgMCAyLjA0Njg3NC0uMjA3MDMxIDMuMDM5MDYyLS42NDA2MjUgMy44MjgxMjUtMS42Nzk2ODcgNS41NzAzMTItNi4xNDg0MzcgMy44OTA2MjUtOS45ODA0NjktNy44NTU0NjktMTcuODkwNjI0LTExLjgzNTkzNy0zNi45MjU3ODEtMTEuODM1OTM3LTU2LjU3NDIxOCAwLTE5LjY1MjM0NCAzLjk4MDQ2OC0zOC42ODc1IDExLjgzNTkzNy01Ni41NzgxMjUgMS42Nzk2ODctMy44MzIwMzEtLjA1ODU5NC04LjI5Njg3NS0zLjg5MDYyNS05Ljk4MDQ2OS0zLjgzMjAzMS0xLjY3OTY4OC04LjI5Njg3NS4wNjI1LTkuOTgwNDY5IDMuODkwNjI1LTguNzAzMTI1IDE5LjgyNDIxOS0xMy4xMTMyODEgNDAuOTEwMTU2LTEzLjExMzI4MSA2Mi42Njc5NjkgMCAyMS43NTc4MTIgNC40MTQwNjIgNDIuODM5ODQ0IDEzLjExMzI4MSA2Mi42NjQwNjIgMS4yNDYwOTQgMi44Mzk4NDQgNC4wMjM0MzggNC41MzEyNSA2Ljk0MTQwNyA0LjUzMTI1em0wIDAiLz48cGF0aCBkPSJtMTA1LjM1NTQ2OSAxNTAuNDUzMTI1YzEuMDE1NjI1IDAgMi4wNTA3ODEtLjIwNzAzMSAzLjAzOTA2Mi0uNjQwNjI1IDMuODMyMDMxLTEuNjc5Njg4IDUuNTc0MjE5LTYuMTQ4NDM4IDMuODkwNjI1LTkuOTgwNDY5LTYuMTU2MjUtMTQuMDMxMjUtOS4yODEyNS0yOC45Njg3NS05LjI4MTI1LTQ0LjM5ODQzNyAwLTE1LjQyOTY4OCAzLjEyNS0zMC4zNzEwOTQgOS4yODEyNS00NC40MDIzNDQgMS42ODM1OTQtMy44MjgxMjUtLjA1ODU5NC04LjI5Njg3NS0zLjg5MDYyNS05Ljk3NjU2Mi0zLjgyODEyNS0xLjY4MzU5NC04LjI5Njg3NS4wNTg1OTMtOS45NzY1NjIgMy44OTA2MjQtNy4wMDc4MTMgMTUuOTYwOTM4LTEwLjU2MjUgMzIuOTQ5MjE5LTEwLjU2MjUgNTAuNDg4MjgyIDAgMTcuNTM5MDYyIDMuNTU0Njg3IDM0LjUyNzM0NCAxMC41NjI1IDUwLjQ4ODI4MSAxLjI0NjA5MyAyLjgzOTg0NCA0LjAyMzQzNyA0LjUzMTI1IDYuOTM3NSA0LjUzMTI1em0wIDAiLz48L3N2Zz4=",
+						"src_type": "div"
+					}
+				}
+			]
+		},
+		{
+			"id": 7,
+			"composition": {
+				"columns": 3,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "13",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "https://www.huntington.org/sites/default/files/frontiers/images/ghosthamlet_1.jpg",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0,
+				"opacity" : 0.2
+			},
+			"class_name": "",
+			"style": {},
+			"title": {
+				"text": "Крестьяне пишут",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 2,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {}
+			},
+			"type": "quote",
+			"data": {
+				"text": "Господа либеральные буржуа будут «очень рады», если будет дана свобода слова, печати и союзов, лишь бы была ограничена свобода стачек. Вот почему они так много разглагольствуют «о правах человека и гражданина», тогда как о свободе стачек они ничего внятного не говорят, помимо того, что фарисейски лепечут о каких-то «экономических реформах». <…> Если они доживут до исполнения всех этих желаний, то в результате права царя окажутся в руках буржуазии и царское самодержавие постепенно превратится в самодержавие буржуазии.",
+				"name": "Иосиф Виссарионович Сталин",
+				"description": "российский революционный и советский государственный, политический, партийный и военный деятель.",
+				"style": {
+					"minHeight": 350
+				}
+			},
+			"floats": []
+		},
+		{
+			"id": 8,
+			"composition": {
+				"columns": 1,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "14",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "p-4",
+			"style": {
+				"backgroundColor": "#FFF"
+			},
+			"title": {
+				"text": "",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {}
+			},
+			"type": "social_likes",
+			"data": {
+				"socials": [
+					"odnoklassniki",
+					"facebook",
+					"vkontakte",
+					"twitter",
+					"mailru"
+				]
+			},
+			"floats": []
+		},
+		{
+			"id": 9,
+			"composition": {
+				"columns": 0,
+				"type": 2,
+				"proportia": [
+					33,
+					67
+				],
+				"is_blocked": 0,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "15",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {},
+			"title": {
+				"text": "",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-right",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-right",
+				"style": {}
+			},
+			"type": "yandex_map",
+			"data": {
+				"class_name": "",
+				"height": 500,
+				"places": [
+					{
+						"_id": "1",
+						"types": [
+							{
+								"_id": "1",
+								"color": "#222222",
+								"title": "",
+								"icon": "assets/img/home4.svg"
+							}
+						],
+						"title": "Император Павел Петрович",
+						"geo": [
+							55.6,
+							37.64
+						]
+					},
+					{
+						"_id": "2",
+						"types": [
+							{
+								"_id": "2",
+								"color": "#666666",
+								"title": "",
+								"icon": "assets/img/worlwide.svg"
+							}
+						],
+						"title": "Император Павел Петрович",
+						"geo": [
+							55.7,
+							37.5
+						]
+					},
+					{
+						"_id": "2",
+						"types": [
+							{
+								"color": "#444444",
+								"title": "",
+								"icon": "assets/img/037-talkshow.svg"
+							}
+						],
+						"title": "Якобы погромы...",
+						"geo": [
+							55.76,
+							37.64
+						]
+					}
+				],
+				"position": [
+					55.76,
+					37.64,
+					10
+				],
+				"yandex_map_api_key": "8202b217-b7c5-4c31-8abb-6030094cc780"
+			},
+			"floats": []
+		},
+		{
+			"id": 10,
+			"composition": {
+				"columns": 2,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "16",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "pb-5",
+			"style": {
+				"backgroundColor": "#91a298"
+			},
+			"title": {
+				"text": "«Перри Мэйсон»",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "Рейтинг: настолько новый, что рейтинга на кинопоиске нет",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {}
+			},
+			"type": "html",
+			"data": {
+				"text": "<div class=''><p><b>Перри Мейсон</b> — практикующий лос-анджелесский адвокат, литературный персонаж серии романов классика американского детектива <b>Эрла Гарднера</b>. Первый роман о приключениях Мейсона вышел в 1933 году. В отличие от своих коллег Мэйсон часто лично занимается расследованием дел своих клиентов. Иногда ему помогает частный детектив Пол Дрейк.</p><p> В 1957 году канал Си-Би-Эс уже обращался к этому литературному герою, запустив с ним успешный сериал. Одним из режиссеров нового крайне ожидаемого сериала стал Тимоти Ван Паттен — режиссер эпизодов «Игры Престолов» и «Черного зеркала». Главную роль сыграл <b>Мэттью Риз</b>.<p></div>",
+				"class_name": "lead"
+			},
+			"floats": []
+		},
+		{
+			"id": 11,
+			"composition": {
+				"columns": 2,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "17",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {},
+			"title": {
+				"text": "Последние статьи",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "а Вы как думаете?",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {}
+			},
+			"type": "post_carousel",
+			"data": {
+				"count": 12,
+				"offset": 0,
+				"data_type": "Bio_Article",
+				"height": 0,
+				"class_name": "",
+				"style": {}
+			},
+			"floats": []
+		},
+		{
+			"id": 12,
+			"composition": {
+				"columns": 2,
+				"type": 2,
+				"proportia": [
+					50,
+					50
+				],
+				"is_blocked": 1,
+				"text_before": "",
+				"text_after": ""
+			},
+			"menu": {
+				"label": "",
+				"id": "17",
+				"is_enabled": 0
+			},
+			"background": {
+				"image": "",
+				"color": "",
+				"is_parallax": 0,
+				"parallax_speed": 0
+			},
+			"class_name": "",
+			"style": {
+				"backgroundColor": "#000000",
+				"minHeight": 120
+			},
+			"title": {
+				"text": "INORI",
+				"text_src": "",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center",
+				"style": {},
+				"composition": {
+					"columns": 0,
+					"type": 0,
+					"proportia": [
+						50,
+						50
+					],
+					"is_blocked": 0,
+					"text_before": "",
+					"text_after": ""
+				}
+			},
+			"descriptions": {
+				"text": "Super High Speed Face Mapping (1000fps) Making",
+				"lasy_load_type": "",
+				"lasy_load_delay": 0,
+				"class_name": "text-center text-light",
+				"style": {}
+			},
+			"type": "video",
+			"data": {
+				"type": "vimeo",
+				"id": "210599507",
+				"height": 600,
+				"width": "100%"
+			},
+			"floats": []
+		}
+	],
+	"extend_class": []
+}
