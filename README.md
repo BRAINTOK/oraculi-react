@@ -1,6 +1,6 @@
 <div align="center">
 <h1>Oraculi</h1>
-<img src="https://lh5.googleusercontent.com/z1n36xuLIgHdCZaGVJhgpaxy4dKxn4VXCMQDLIqu_dLOEsEVInQ4H2Iwrb0ELxdNGrRHVShtgXx6m9bxaXbZ=w1920-h969-rw">
+<img src="https://lh6.googleusercontent.com/oeS8ZUL7Um4H5bBdR4Wd42hSjUM3FRvPeo9UntMKOW5LyDmMFajqcLHwdh1avRH_onxaoa0KGy5tuK9jNf2k=w1920-h969">
 
 </div>
 
