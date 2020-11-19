@@ -36,4 +36,4 @@ Before contributing, please read [CONTRIBUTING.md](CONTRIBUTING.md) first.
 
 
 ## License
-Oraculi React is released under an Apache 2.0 license. See [COPYING](COPYING) for the full licensing conditions.
+Oraculi React is released under an Apache 2.0 license. See [LICENSE](LICENSE) for the full licensing conditions.
