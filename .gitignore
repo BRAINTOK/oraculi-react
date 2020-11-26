@@ -34,3 +34,6 @@ config.json
 /src/states/tutor/p.php
 /src/states/tutor/Tax.php
 /src/states/tutor/*.php
+
+/src/layouts
+/src/LayoutApp
