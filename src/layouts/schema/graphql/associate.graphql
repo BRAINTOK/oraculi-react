@@ -1,7 +1,0 @@
-mutation associate($input: AuthenticatorInput){
-    associate(input: $input) {
-        authenticator_type
-        user_code
-
-    }
-}

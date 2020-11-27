@@ -1,5 +1,0 @@
-mutation authorize($input: AuthorizeInput){
-    authorize(input: $input) {
-        auth_req_id
-    }
-}
